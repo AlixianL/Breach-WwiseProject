@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Breach-WwiseProject",
+   "GUID": "{5D144C86-8EA2-4F89-AA11-E6282FD1A158}",
+   "Generator": "2025.1.4.9062"
+  },
+  "CacheRoot": ".cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{1F3B4FC1-E6DC-486A-828F-800D7A3FDB33}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "."
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{E9E3115F-D67A-417E-92E8-C29E52E69A9B}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{7C0028AF-8167-6CB4-9716-0CFBAB0BCB44}"
+ }
+}

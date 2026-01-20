@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F4100A3-7822-4677-B875-6E2C444314F7}" SchemaVersion="133">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{4F4100A3-7822-4677-B875-6E2C444314F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F4100A3-7822-4677-B875-6E2C444314F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Player" ID="{81BEDA76-C9A0-4C3C-B808-AEBBAB80C961}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

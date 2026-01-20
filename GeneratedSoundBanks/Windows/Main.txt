@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	953937849	GroundSurface			\Default Work Unit\GroundSurface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	GroundSurface			
+	3934470635	Blood	GroundSurface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	98694347	ConcreteFootStep-3	.cache\B9\{B9CA75B9-F645-350E-1BEF-13CEB937EFCB}.wem		\Containers\Default Work Unit\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-3		56426
+	248781714	ConcreteFootStep-1	.cache\85\{85DDF0B4-0B06-70DC-417D-44F2D20A1707}.wem		\Containers\Default Work Unit\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-1		43504
+	284213834	ConcreteFootStep-2	.cache\5F\{5F927842-C79C-18E8-9996-F1EC99293C17}.wem		\Containers\Default Work Unit\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-2		57420
+	385448204	BloodFootStep-3	.cache\1E\{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem		\Containers\Default Work Unit\FootSteps\Humain-Blood-FootSteps\BloodFootStep-3		114010
+	522664538	BloodFootStep-1	.cache\CF\{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem		\Containers\Default Work Unit\FootSteps\Humain-Blood-FootSteps\BloodFootStep-1		99292
+	681746409	ConcreteFootStep-4	.cache\CB\{CB96D0AB-21D0-F828-980B-DD77527DAE81}.wem		\Containers\Default Work Unit\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-4		45548
+	1064441004	BloodFootStep-2	.cache\BD\{BDBDB00B-1705-804E-7C22-D81514721F98}.wem		\Containers\Default Work Unit\FootSteps\Humain-Blood-FootSteps\BloodFootStep-2		62784
+
