@@ -18,6 +18,111 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PanelOff" ID="{A7808613-820C-41BF-8730-3BB61A6ECD0D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{10BD89EB-A787-44EC-9608-6B5A395A6A8D}" ShortID="333448816">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PanelOff" ID="{CFA8D73A-A739-440C-B055-D3AC811A3742}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PanelOn" ID="{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D2373EDE-2B32-49C7-8D73-DEF7F6E688DD}" ShortID="91520465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PanelOn" ID="{27DF395B-2971-4070-800D-E299E314A67E}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Error" ID="{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{165AD632-2ED6-4824-B06B-B20D4C6F2714}" ShortID="683725092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error" ID="{058B5312-4DE1-4B53-9003-DDEFB0DA5FEF}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Right" ID="{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{EE8941E1-5F7E-4E00-A338-1A34599251F5}" ShortID="439407454">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Right" ID="{DC269040-633D-487A-AF65-5513ACA92154}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Charging" ID="{5860D269-B82E-46B0-8F8D-760D14C27A17}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F20F6198-7070-489A-BC7B-06DCAC121295}" ShortID="469205495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChargingAwnser" ID="{49919A68-DC8B-4B49-B377-EF710FC6D087}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button" ID="{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B5EBA7CA-CD9F-4595-B072-9DBAB1B4EF02}" ShortID="1047285728">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button" ID="{55EAD99F-A6F1-410C-BC1D-A44CB32F1AC6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AmbiantRoom" ID="{892D091B-E809-4CDC-B755-28D2A2F2E6DF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D95FBF2F-54B4-4906-9DD3-A1BACB405943}" ShortID="389520215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomAmbiant" ID="{1F418D3B-F71F-4815-8A31-536E63A805A4}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
