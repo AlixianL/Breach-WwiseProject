@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}",
     "Language": "SFX",
-    "Hash": "{37474F0C-5E2B-3466-D1F4-ADC73AA171EC}",
+    "Hash": "{13AA6E28-BB5F-09D7-5F76-0DC968C96E54}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX\\ChargingAwnser.wav",
-      "CachePath": "3A/{3A206802-423A-9E47-36D2-75A574B64FF8}.wem"
+      "CachePath": "1E/{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem"
      },
      {
       "Id": "522664538",
@@ -312,6 +312,6 @@
     ]
    }
   ],
-  "FileHash": "{D4409775-B5BD-2EE5-C9BD-1EE454E8E444}"
+  "FileHash": "{940B5EFC-5701-E74B-30A0-0EC7C4F6EBEE}"
  }
 }

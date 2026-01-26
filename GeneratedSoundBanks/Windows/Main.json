@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}",
     "Language": "SFX",
-    "Hash": "{7A81093A-8718-598D-D93A-34735F10FB2A}",
+    "Hash": "{13AA6E28-BB5F-09D7-5F76-0DC968C96E54}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,30 @@
       "Location": "Memory",
       "ShortName": "ConcreteFootStep-3.wav",
       "CachePath": "B9/{B9CA75B9-F645-350E-1BEF-13CEB937EFCB}.wem"
+     },
+     {
+      "Id": "103784853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Error.wav",
+      "CachePath": "83/{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem"
+     },
+     {
+      "Id": "127512429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PanelOff.wav",
+      "CachePath": "38/{38ED08BB-0803-B664-2338-87295AF732B9}.wem"
+     },
+     {
+      "Id": "193724221",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Right.wav",
+      "CachePath": "9C/{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem"
      },
      {
       "Id": "248781714",
@@ -48,12 +72,44 @@
       "CachePath": "1E/{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem"
      },
      {
+      "Id": "417891587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Button.wav",
+      "CachePath": "04/{04022146-84D1-9BD9-6442-3015E022B9F2}.wem"
+     },
+     {
+      "Id": "518372867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ChargingAwnser.wav",
+      "CachePath": "1E/{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem"
+     },
+     {
       "Id": "522664538",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "BloodFootStep-1.wav",
       "CachePath": "CF/{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem"
+     },
+     {
+      "Id": "547253910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PanelOn.wav",
+      "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
+     },
+     {
+      "Id": "586806016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\RoomAmbiant.wav",
+      "CachePath": "E0/{E0BB55ED-DA9D-0597-C079-27D852D458DF}.wem"
      },
      {
       "Id": "681746409",
@@ -73,6 +129,96 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3069273566",
+      "Name": "AmbiantRoom",
+      "ObjectPath": "\\Events\\Default Work Unit\\AmbiantRoom",
+      "GUID": "{892D091B-E809-4CDC-B755-28D2A2F2E6DF}",
+      "Color": "25",
+      "DurationType": "OneShot",
+      "DurationMin": "134.71199",
+      "DurationMax": "134.71199",
+      "MediaRefs": [
+       {
+        "Id": "586806016"
+       }
+      ]
+     },
+     {
+      "Id": "977454165",
+      "Name": "Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\Button",
+      "GUID": "{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8265079",
+      "DurationMax": "0.8265079",
+      "MediaRefs": [
+       {
+        "Id": "417891587"
+       }
+      ]
+     },
+     {
+      "Id": "3828622232",
+      "Name": "Charging",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charging",
+      "GUID": "{5860D269-B82E-46B0-8F8D-760D14C27A17}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0019568",
+      "DurationMax": "1.0019568",
+      "MediaRefs": [
+       {
+        "Id": "518372867"
+       }
+      ]
+     },
+     {
+      "Id": "1880695829",
+      "Name": "Error",
+      "ObjectPath": "\\Events\\Default Work Unit\\Error",
+      "GUID": "{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9926531",
+      "DurationMax": "0.9926531",
+      "MediaRefs": [
+       {
+        "Id": "103784853"
+       }
+      ]
+     },
+     {
+      "Id": "2091491900",
+      "Name": "PanelOff",
+      "ObjectPath": "\\Events\\Default Work Unit\\PanelOff",
+      "GUID": "{A7808613-820C-41BF-8730-3BB61A6ECD0D}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18285714",
+      "DurationMax": "0.18285714",
+      "MediaRefs": [
+       {
+        "Id": "127512429"
+       }
+      ]
+     },
+     {
+      "Id": "447558774",
+      "Name": "PanelOn",
+      "ObjectPath": "\\Events\\Default Work Unit\\PanelOn",
+      "GUID": "{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20897959",
+      "DurationMax": "0.20897959",
+      "MediaRefs": [
+       {
+        "Id": "547253910"
+       }
+      ]
+     },
      {
       "Id": "3854155799",
       "Name": "Play_FootSteps",
@@ -125,6 +271,21 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "3893817417",
+      "Name": "Right",
+      "ObjectPath": "\\Events\\Default Work Unit\\Right",
+      "GUID": "{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0448979",
+      "DurationMax": "1.0448979",
+      "MediaRefs": [
+       {
+        "Id": "193724221"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -151,6 +312,6 @@
     ]
    }
   ],
-  "FileHash": "{717D4A0E-FA63-ADFF-1285-3881241B34A8}"
+  "FileHash": "{940B5EFC-5701-E74B-30A0-0EC7C4F6EBEE}"
  }
 }

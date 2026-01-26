@@ -8,11 +8,18 @@
   "CacheRoot": ".cache",
   "Platforms": [
    {
+    "Name": "Android",
+    "GUID": "{2686F9CA-C405-458E-8D07-F95CD450A561}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "GeneratedSoundBanks/Android"
+   },
+   {
     "Name": "Windows",
-    "GUID": "{1F3B4FC1-E6DC-486A-828F-800D7A3FDB33}",
+    "GUID": "{29D50D58-F54A-48AD-9E95-003E108A9754}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
-    "Path": "."
+    "Path": "GeneratedSoundBanks/Windows"
    }
   ],
   "Languages": [
@@ -24,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{7C0028AF-8167-6CB4-9716-0CFBAB0BCB44}"
+  "FileHash": "{00582975-9DC2-0A70-10C5-15938C92CE57}"
  }
 }
