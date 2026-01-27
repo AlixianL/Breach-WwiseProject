@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1880695829	Error			\Default Work Unit\Error	
 	2091491900	PanelOff			\Default Work Unit\PanelOff	
 	3069273566	AmbiantRoom			\Default Work Unit\AmbiantRoom	
+	3157003241	Test			\Default Work Unit\Test	
 	3828622232	Charging			\Default Work Unit\Charging	
 	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
 	3893817417	Right			\Default Work Unit\Right	
@@ -15,6 +16,9 @@ Switch	ID	Name	Switch Group			Notes
 	841620460	Concrete	GroundSurface			
 	3934470635	Blood	GroundSurface			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4251783213	Obstruction			\Default Work Unit\Obstruction	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	98694347	ConcreteFootStep-3	.cache\B9\{B9CA75B9-F645-350E-1BEF-13CEB937EFCB}.wem		\Containers\Default Work Unit\AllFooSteps\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-3		56426
 	103784853	Error	.cache\83\{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem		\Containers\Default Work Unit\Panel\Error		175200
@@ -23,6 +27,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	248781714	ConcreteFootStep-1	.cache\85\{85DDF0B4-0B06-70DC-417D-44F2D20A1707}.wem		\Containers\Default Work Unit\AllFooSteps\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-1		43504
 	284213834	ConcreteFootStep-2	.cache\5F\{5F927842-C79C-18E8-9996-F1EC99293C17}.wem		\Containers\Default Work Unit\AllFooSteps\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-2		57420
 	385448204	BloodFootStep-3	.cache\1E\{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem		\Containers\Default Work Unit\AllFooSteps\FootSteps\Humain-Blood-FootSteps\BloodFootStep-3		114010
+	413213017	PrincipalDoor	.cache\A5\{A51560AB-839D-BF50-0658-01B0513D9EFD}.wem		\Containers\Default Work Unit\Obstruction\ObstructionProperty\PrincipalDoor		529296
 	417891587	Button	.cache\04\{04022146-84D1-9BD9-6442-3015E022B9F2}.wem		\Containers\Default Work Unit\Panel\Button		145892
 	518372867	ChargingAwnser	.cache\1E\{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem		\Containers\Default Work Unit\Panel\ChargingAwnser		176840
 	522664538	BloodFootStep-1	.cache\CF\{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem		\Containers\Default Work Unit\AllFooSteps\FootSteps\Humain-Blood-FootSteps\BloodFootStep-1		99292

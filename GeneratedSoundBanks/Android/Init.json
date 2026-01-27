@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D60C8622-3514-4E64-2FE0-6FC0DC9A7270}",
+    "Hash": "{68048F4B-766F-46E2-78F8-5999799D7B83}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -102,6 +102,12 @@
       "Name": "SS_Air_Turbulence",
       "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Turbulence",
       "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
+     },
+     {
+      "Id": "4251783213",
+      "Name": "Obstruction",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Obstruction",
+      "GUID": "{990569B7-67EC-422F-93B5-D8E324A4E3C3}"
      }
     ],
     "SwitchGroups": [
@@ -605,6 +611,6 @@
     ]
    }
   ],
-  "FileHash": "{98FE38A9-A890-7667-F657-40C94F60E79D}"
+  "FileHash": "{513658C9-10B5-CC9C-CAEA-603F7FFC9485}"
  }
 }

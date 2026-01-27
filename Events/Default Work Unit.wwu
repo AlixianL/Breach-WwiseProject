@@ -123,6 +123,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Test" ID="{C9977B3F-9AE0-400A-AA53-7B980817E011}">
+					<ChildrenList>
+						<Action Name="" ID="{093DABDE-B20C-43BD-A753-65C538E6FAB8}" ShortID="6507350">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PrincipalDoor" ID="{51624233-E75A-431C-9F7A-E853410A1E81}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

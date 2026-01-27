@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}",
     "Language": "SFX",
-    "Hash": "{13AA6E28-BB5F-09D7-5F76-0DC968C96E54}",
+    "Hash": "{375158F2-C0DB-EE4D-0249-F1C6BFA958BF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "BloodFootStep-3.wav",
       "CachePath": "1E/{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem"
+     },
+     {
+      "Id": "413213017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PrincipalDoor.wav",
+      "CachePath": "A5/{A51560AB-839D-BF50-0658-01B0513D9EFD}.wem"
      },
      {
       "Id": "417891587",
@@ -286,6 +294,26 @@
         "Id": "193724221"
        }
       ]
+     },
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test",
+      "GUID": "{C9977B3F-9AE0-400A-AA53-7B980817E011}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "413213017"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "4251783213",
+      "Name": "Obstruction",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Obstruction",
+      "GUID": "{990569B7-67EC-422F-93B5-D8E324A4E3C3}"
      }
     ],
     "SwitchGroups": [
@@ -312,6 +340,6 @@
     ]
    }
   ],
-  "FileHash": "{940B5EFC-5701-E74B-30A0-0EC7C4F6EBEE}"
+  "FileHash": "{C60D7746-8F79-41A8-3CF1-5DB145A85A17}"
  }
 }
