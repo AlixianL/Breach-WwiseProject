@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	447558774	PanelOn			\Default Work Unit\PanelOn	
 	977454165	Button			\Default Work Unit\Button	
+	1598298728	Music_Menu			\Default Work Unit\Music_Menu	
 	1827892369	DoorSwitchTest			\Default Work Unit\Switch\DoorSwitchTest	
 	1880695829	Error			\Default Work Unit\Error	
 	2091491900	PanelOff			\Default Work Unit\PanelOff	
@@ -50,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	681489843	DoorOpen	.cache\FC\{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem		\Containers\Default Work Unit\Object\Door\DoorSwitch\DoorOpen		529296
 	681746409	ConcreteFootStep-4	.cache\CB\{CB96D0AB-21D0-F828-980B-DD77527DAE81}.wem		\Containers\Default Work Unit\Characther\FootSteps\Human-Concrete-FootSteps\ConcreteFootStep-4		45548
 	719544570	CreatureSound	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\CreatureSound		2596704
+	767020205	Menu	.cache\1A\{1A077294-66F7-089A-8154-39532B377AD1}.wem		\Containers\Default Work Unit\Musique\Menu		22591588
 	975917458	ControlePanel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\ControlePanel		136032
 	1064441004	BloodFootStep-2	.cache\BD\{BDBDB00B-1705-804E-7C22-D81514721F98}.wem		\Containers\Default Work Unit\Characther\FootSteps\Humain-Blood-FootSteps\BloodFootStep-2		62784
 
