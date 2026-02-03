@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{68048F4B-766F-46E2-78F8-5999799D7B83}",
+    "Hash": "{BC43FEBD-FE14-14DD-96AA-CFD5FA698007}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -128,6 +128,26 @@
         "Name": "Blood",
         "ObjectPath": "\\Switches\\Default Work Unit\\GroundSurface\\Blood",
         "GUID": "{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"
+       }
+      ]
+     },
+     {
+      "Id": "1877847629",
+      "Name": "Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Door",
+      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Switches": [
+       {
+        "Id": "1404805401",
+        "Name": "DoorOpen",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorOpen",
+        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+       },
+       {
+        "Id": "1697683977",
+        "Name": "DoorClosed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorClosed",
+        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
        }
       ]
      }
@@ -611,6 +631,6 @@
     ]
    }
   ],
-  "FileHash": "{513658C9-10B5-CC9C-CAEA-603F7FFC9485}"
+  "FileHash": "{FD04E367-BC58-F984-C3F8-A8F02CCB5740}"
  }
 }

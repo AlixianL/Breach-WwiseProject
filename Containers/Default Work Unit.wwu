@@ -53,6 +53,314 @@
 								<ActiveSource Name="PodOpening" ID="{D195D525-EA19-48C9-9321-FA1EC871C006}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Torture" ID="{57E059E9-E583-4E1B-882D-46AC145DF4D4}" ShortID="191693798">
+							<ChildrenList>
+								<RandomSequenceContainer Name="TortureRandom" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" ShortID="226243782">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ManScream" ID="{2A2ED719-6AC8-4425-855F-79A02E42A310}" ShortID="112514554">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ManScream" ID="{A4100282-DD87-4F8E-BE93-81D2861547DE}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX\ManScream.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="93991173"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{45CED074-586C-4EE1-899E-5351E39CD1DE}" ShortID="550577883">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Peak Limiter (Custom)" ID="{EFDA4CA4-92C9-46BD-BC78-ECAA0F23F8CD}" ShortID="551746811" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																		<PropertyList>
+																			<Property Name="OutputGain" Type="Real32" Value="-10.4"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="ManScream" ID="{A4100282-DD87-4F8E-BE93-81D2861547DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CreatureSound" ID="{EECA73E6-F430-4CB3-80AE-404D2EEAA7D8}" ShortID="456679938">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CreatureSound" ID="{28AB9B01-547F-435E-8AC7-E3DF3DDD35A9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\CreatureSound.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="719544570"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{21D6D87A-0477-4AFE-8C64-5B8216A65FBD}" ShortID="967569534">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Peak Limiter (Custom)" ID="{C7F23E28-F33B-45D4-841F-94C3D3209F28}" ShortID="253392067" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																		<PropertyList>
+																			<Property Name="OutputGain" Type="Real32" Value="-4.6"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="CreatureSound" ID="{28AB9B01-547F-435E-8AC7-E3DF3DDD35A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CreatureScreem" ID="{5A9A9E4A-B59D-4E83-A4D6-AB2DAEF3E9FE}" ShortID="67308000">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CreatureScreem" ID="{2C1F2C20-CCCA-491E-8DE3-ED65BF721FB6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\CreatureScreem.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="555938431"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{E2D17880-FE4F-48AE-92D0-CEA1271C9C2E}" ShortID="65578120">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Peak Limiter (Custom)" ID="{B3FFA957-8635-4A96-A654-D8E5A78335EC}" ShortID="83896435" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																		<PropertyList>
+																			<Property Name="OutputGain" Type="Real32" Value="-8.7"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="CreatureScreem" ID="{2C1F2C20-CCCA-491E-8DE3-ED65BF721FB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ControlePanel" ID="{67508B51-AE7A-4495-B7CA-2A0DB691A669}" ShortID="38575738">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ControlePanel" ID="{430F390A-024D-46D9-873F-83C4B523E459}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>18</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX\ControlePanel.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975917458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{445C8021-E14F-406A-91CE-E2943EF1268A}" ShortID="1012354296">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Peak Limiter (Custom)" ID="{6D97FAD0-88C0-4A58-87EF-5DB6B226A08F}" ShortID="915639822" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																		<PropertyList>
+																			<Property Name="OutputGain" Type="Real32" Value="-7.8"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="ControlePanel" ID="{430F390A-024D-46D9-873F-83C4B523E459}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JailDoor" ID="{6F3B0278-8D65-40F2-A1DE-C9149BB7CE40}" ShortID="429962985">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JailDoor" ID="{E9DC9070-FC3E-46A5-B1C6-6F26D0B04E8B}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX\JailDoor.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="526733716"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<EffectSlot Name="" ID="{D5823C55-FDC9-4ECC-BEE3-779BADF44186}" ShortID="307548717">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Peak Limiter (Custom)" ID="{A51CE536-C73E-415C-8D15-E6A7E23A767C}" ShortID="889555779" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																		<PropertyList>
+																			<Property Name="OutputGain" Type="Real32" Value="-11.1"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="JailDoor" ID="{E9DC9070-FC3E-46A5-B1C6-6F26D0B04E8B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{3696935C-3A2E-4897-A6F3-573386144BBD}" ShortID="745850143">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+											<EffectSlot Name="" ID="{F71D63A8-2953-41D2-8CBA-DD7E05067DB4}" ShortID="207412739">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{429DB611-708E-4932-B7FD-128E095034A4}" ShortID="888915652" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrequencyBand1" Type="Real32" Value="156.6641"/>
+																	<Property Name="FrequencyBand2" Type="Real32" Value="5565.119"/>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
+																	<Property Name="GainBand1" Type="Real32" Value="-17.53846"/>
+																	<Property Name="GainBand2" Type="Real32" Value="-17.23077"/>
+																	<Property Name="GainBand3" Type="Real32" Value="-2.769231"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+											<EffectSlot Name="" ID="{69329A3A-C74C-48ED-8431-05D01A631B2C}" ShortID="304692716">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<ObjectRef Name="Brick_Wall_Minus_6dB_Peak_Fast_Release" ID="{3FF9AD86-E377-40F8-970F-3D4EE73288B5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="CameraMoving" ID="{44E66823-B004-42F1-939D-717E6C1D1769}" ShortID="988590854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CameraMoving" ID="{2DC06AB0-A498-454C-A4C5-2AAA6DCC931E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX\CameraMoving.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="844665841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CameraMoving" ID="{2DC06AB0-A498-454C-A4C5-2AAA6DCC931E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Musique" ID="{E4A600EF-279A-4C2C-A1F9-B249C1E0BDD6}" ShortID="64928213">
@@ -487,6 +795,93 @@
 										<ActiveSource Name="Button" ID="{618C27ED-B0F6-41BA-8643-00662885782C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Door" ID="{59C3F18D-78CA-4F2B-96F1-0505265FD7DC}" ShortID="763276602">
+							<ChildrenList>
+								<SwitchContainer Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" ShortID="315250068">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DoorClosing" ID="{52C81038-9763-4A01-BE26-9BDB32A410A4}" ShortID="399578608">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DoorClosing" ID="{E147E580-134A-4CD8-8AF9-F3380ACB057E}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\DoorClosing.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51881564"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DoorClosing" ID="{E147E580-134A-4CD8-8AF9-F3380ACB057E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DoorOpen" ID="{0861129F-4AF8-40AC-BF10-7D2D857ACF84}" ShortID="939278720">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PrincipalDoor (1)" ID="{A699BC2A-B6D0-44A0-896C-FAFD1FE5DAB8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\PrincipalDoor (1).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="681489843"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PrincipalDoor (1)" ID="{A699BC2A-B6D0-44A0-896C-FAFD1FE5DAB8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="DoorClosing" ID="{52C81038-9763-4A01-BE26-9BDB32A410A4}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DoorOpen" ID="{0861129F-4AF8-40AC-BF10-7D2D857ACF84}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="DoorClosed" ID="{66C56FE1-789F-46A7-8811-489DA53DFC6B}"/>
+												<ItemList>
+													<ItemRef Name="DoorClosing" ID="{52C81038-9763-4A01-BE26-9BDB32A410A4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="DoorOpen" ID="{25BB8BFC-88FB-461A-9202-1F0E894160DF}"/>
+												<ItemList>
+													<ItemRef Name="DoorOpen" ID="{0861129F-4AF8-40AC-BF10-7D2D857ACF84}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

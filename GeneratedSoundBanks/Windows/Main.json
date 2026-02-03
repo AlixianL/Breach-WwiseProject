@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}",
     "Language": "SFX",
-    "Hash": "{375158F2-C0DB-EE4D-0249-F1C6BFA958BF}",
+    "Hash": "{86EE116D-584B-4EA8-8F2A-07C0AD92F6A1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "51881564",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\DoorClosing.wav",
+      "CachePath": "40/{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem"
+     },
+     {
+      "Id": "93991173",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ManScream.wav",
+      "CachePath": "99/{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem"
+     },
      {
       "Id": "98694347",
       "Language": "SFX",
@@ -72,14 +88,6 @@
       "CachePath": "1E/{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem"
      },
      {
-      "Id": "413213017",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\PrincipalDoor.wav",
-      "CachePath": "A5/{A51560AB-839D-BF50-0658-01B0513D9EFD}.wem"
-     },
-     {
       "Id": "417891587",
       "Language": "SFX",
       "Streaming": "false",
@@ -104,12 +112,28 @@
       "CachePath": "CF/{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem"
      },
      {
+      "Id": "526733716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\JailDoor.wav",
+      "CachePath": "B3/{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem"
+     },
+     {
       "Id": "547253910",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX\\PanelOn.wav",
       "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
+     },
+     {
+      "Id": "555938431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CreatureScreem.wav",
+      "CachePath": "75/{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem"
      },
      {
       "Id": "586806016",
@@ -120,12 +144,36 @@
       "CachePath": "E0/{E0BB55ED-DA9D-0597-C079-27D852D458DF}.wem"
      },
      {
+      "Id": "681489843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PrincipalDoor (1).wav",
+      "CachePath": "FC/{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem"
+     },
+     {
       "Id": "681746409",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ConcreteFootStep-4.wav",
       "CachePath": "CB/{CB96D0AB-21D0-F828-980B-DD77527DAE81}.wem"
+     },
+     {
+      "Id": "719544570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CreatureSound.wav",
+      "CachePath": "32/{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem"
+     },
+     {
+      "Id": "975917458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ControlePanel.wav",
+      "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
      },
      {
       "Id": "1064441004",
@@ -136,6 +184,76 @@
       "CachePath": "BD/{BDBDB00B-1705-804E-7C22-D81514721F98}.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "83896435",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureScreem\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{B3FFA957-8635-4A96-A654-D8E5A78335EC}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "253392067",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureSound\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{C7F23E28-F33B-45D4-841F-94C3D3209F28}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "551746811",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ManScream\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{EFDA4CA4-92C9-46BD-BC78-ECAA0F23F8CD}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "888915652",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{429DB611-708E-4932-B7FD-128E095034A4}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "889555779",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\JailDoor\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{A51CE536-C73E-415C-8D15-E6A7E23A767C}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "915639822",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ControlePanel\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{6D97FAD0-88C0-4A58-87EF-5DB6B226A08F}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "701863527",
+       "Name": "Inside_My_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_My_Head",
+       "GUID": "{94B53301-9AA1-468F-8419-92AEDAAE39DF}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2080872166",
+       "Name": "Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "GUID": "{3FF9AD86-E377-40F8-970F-3D4EE73288B5}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "3069273566",
@@ -179,6 +297,43 @@
       "MediaRefs": [
        {
         "Id": "518372867"
+       }
+      ]
+     },
+     {
+      "Id": "1827892369",
+      "Name": "DoorSwitchTest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Switch\\DoorSwitchTest",
+      "GUID": "{F28CBBAE-68B2-467B-A456-19CD393AF660}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "3",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1877847629",
+         "Id": "1697683977",
+         "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "51881564"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1877847629",
+         "Id": "1404805401",
+         "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "681489843"
+         }
+        ]
        }
       ]
      },
@@ -230,7 +385,7 @@
      {
       "Id": "3854155799",
       "Name": "Play_FootSteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_FootSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Switch\\Play_FootSteps",
       "GUID": "{8FCBE18C-0AF1-4AC4-9C55-D4909131BDCE}",
       "Color": "14",
       "DurationType": "OneShot",
@@ -281,6 +436,51 @@
       ]
      },
      {
+      "Id": "4096606849",
+      "Name": "RandomTorture",
+      "ObjectPath": "\\Events\\Default Work Unit\\RandomTorture",
+      "GUID": "{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5412245",
+      "DurationMax": "27.048",
+      "MediaRefs": [
+       {
+        "Id": "93991173"
+       },
+       {
+        "Id": "526733716"
+       },
+       {
+        "Id": "555938431"
+       },
+       {
+        "Id": "719544570"
+       },
+       {
+        "Id": "975917458"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "83896435"
+        },
+        {
+         "Id": "253392067"
+        },
+        {
+         "Id": "551746811"
+        },
+        {
+         "Id": "889555779"
+        },
+        {
+         "Id": "915639822"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3893817417",
       "Name": "Right",
       "ObjectPath": "\\Events\\Default Work Unit\\Right",
@@ -294,26 +494,6 @@
         "Id": "193724221"
        }
       ]
-     },
-     {
-      "Id": "3157003241",
-      "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Test",
-      "GUID": "{C9977B3F-9AE0-400A-AA53-7B980817E011}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "413213017"
-       }
-      ]
-     }
-    ],
-    "GameParameters": [
-     {
-      "Id": "4251783213",
-      "Name": "Obstruction",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Obstruction",
-      "GUID": "{990569B7-67EC-422F-93B5-D8E324A4E3C3}"
      }
     ],
     "SwitchGroups": [
@@ -336,10 +516,30 @@
         "GUID": "{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"
        }
       ]
+     },
+     {
+      "Id": "1877847629",
+      "Name": "Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Door",
+      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Switches": [
+       {
+        "Id": "1404805401",
+        "Name": "DoorOpen",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorOpen",
+        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+       },
+       {
+        "Id": "1697683977",
+        "Name": "DoorClosed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorClosed",
+        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{C60D7746-8F79-41A8-3CF1-5DB145A85A17}"
+  "FileHash": "{2F783F5C-53CA-43D7-D6FF-41B1F0F5F324}"
  }
 }

@@ -9,6 +9,10 @@
 							<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 				</SoundcasterSession>
 			</ChildrenList>

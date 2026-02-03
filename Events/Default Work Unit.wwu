@@ -3,21 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_FootSteps" ID="{8FCBE18C-0AF1-4AC4-9C55-D4909131BDCE}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="14"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{AA38B20E-893A-4554-9E4E-304338B90121}" ShortID="781825960">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="PanelOff" ID="{A7808613-820C-41BF-8730-3BB61A6ECD0D}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="19"/>
@@ -123,12 +108,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Test" ID="{C9977B3F-9AE0-400A-AA53-7B980817E011}">
+				<Folder Name="Switch" ID="{EF46579E-B443-426C-A570-B996555DA1A9}" ShortID="58358508">
 					<ChildrenList>
-						<Action Name="" ID="{093DABDE-B20C-43BD-A753-65C538E6FAB8}" ShortID="6507350">
+						<Event Name="Play_FootSteps" ID="{8FCBE18C-0AF1-4AC4-9C55-D4909131BDCE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{AA38B20E-893A-4554-9E4E-304338B90121}" ShortID="781825960">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorSwitchTest" ID="{F28CBBAE-68B2-467B-A456-19CD393AF660}">
+							<ChildrenList>
+								<Action Name="" ID="{09DAEA9E-8B39-4986-A376-744858E25E0C}" ShortID="339943539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="RandomTorture" ID="{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}">
+					<ChildrenList>
+						<Action Name="" ID="{0178D949-7DD1-43F9-84EE-89166533DABE}" ShortID="555017443">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PrincipalDoor" ID="{51624233-E75A-431C-9F7A-E853410A1E81}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+									<ObjectRef Name="TortureRandom" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

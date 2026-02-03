@@ -9,6 +9,12 @@
 						<Switch Name="Blood" ID="{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}">
+					<ChildrenList>
+						<Switch Name="DoorOpen" ID="{25BB8BFC-88FB-461A-9202-1F0E894160DF}"/>
+						<Switch Name="DoorClosed" ID="{66C56FE1-789F-46A7-8811-489DA53DFC6B}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
