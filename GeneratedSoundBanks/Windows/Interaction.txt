@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	447558774	PanelOn			\Default Work Unit\Interaction\Doors\PanelOn	
+	977454165	Button			\Default Work Unit\Interaction\Doors\Button	
+	1880695829	Error			\Default Work Unit\Interaction\Doors\Error	
+	2091491900	PanelOff			\Default Work Unit\Interaction\Doors\PanelOff	
+	3828622232	Charging			\Default Work Unit\Interaction\Doors\Charging	
+	3893817417	Right			\Default Work Unit\Interaction\Doors\Right	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	103784853	Error	.cache\83\{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem		\Containers\Default Work Unit\Object\Panel\Error		175200
+	127512429	PanelOff	.cache\38\{38ED08BB-0803-B664-2338-87295AF732B9}.wem		\Containers\Default Work Unit\Object\Panel\PanelOff		32352
+	193724221	Right	.cache\9C\{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem		\Containers\Default Work Unit\Object\Panel\Right		92256
+	417891587	Button	.cache\04\{04022146-84D1-9BD9-6442-3015E022B9F2}.wem		\Containers\Default Work Unit\Object\Panel\Button		145892
+	518372867	ChargingAwnser	.cache\1E\{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem		\Containers\Default Work Unit\Object\Panel\ChargingAwnser		176840
+	547253910	PanelOn	.cache\54\{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem		\Containers\Default Work Unit\Object\Panel\PanelOn		36960
+

@@ -4,18 +4,27 @@
 		<WorkUnit Name="Default Work Unit" ID="{BAE1A547-3EBA-4848-97EE-54B675949552}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiant" ID="{39AF2508-DE64-42C5-AA41-5A4A03CAD537}">
 					<ObjectInclusionList>
-						<ObjectRef Name="PanelOff" ID="{A7808613-820C-41BF-8730-3BB61A6ECD0D}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RandomTorture" ID="{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="DoorSwitchTest" ID="{F28CBBAE-68B2-467B-A456-19CD393AF660}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Error" ID="{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Charging" ID="{5860D269-B82E-46B0-8F8D-760D14C27A17}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Button" ID="{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music_Menu" ID="{FA417040-3669-48C7-9361-45AB0A3BB9C3}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Right" ID="{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FootSteps" ID="{8FCBE18C-0AF1-4AC4-9C55-D4909131BDCE}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="AmbiantRoom" ID="{892D091B-E809-4CDC-B755-28D2A2F2E6DF}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PanelOn" ID="{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiant" ID="{D56FFE0F-2171-44D2-B6FA-EF6A52175AAB}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{5007AEFF-3834-40D2-B427-D7A62C602561}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Musique" ID="{35712507-4DD2-4164-A453-5F2D99212B7E}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Interaction" ID="{46C3FE86-43F2-452E-97C8-A5092C52A721}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Interaction" ID="{B177AC26-DC0C-4352-BA18-0B721B9EA1C9}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

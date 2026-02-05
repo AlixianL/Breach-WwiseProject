@@ -7,6 +7,9 @@
 					<PropertyList>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.5"/>
 					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{F655ACE5-6FFB-4C75-BF74-FF606A5C53E9}"/>
+					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

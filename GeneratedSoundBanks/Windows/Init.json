@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{824F62B7-D465-662F-DC93-1A27F0893352}",
+    "Hash": "{A0943EA6-D3E9-382E-9D3D-25DA0C4AC249}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -108,6 +108,22 @@
       "Name": "Obstruction",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Obstruction",
       "GUID": "{990569B7-67EC-422F-93B5-D8E324A4E3C3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1865857008",
+      "Name": "Transition",
+      "ObjectPath": "\\States\\Default Work Unit\\Transition",
+      "GUID": "{C81F3C3D-0333-42D9-A442-894788E26ABD}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Transition\\None",
+        "GUID": "{F655ACE5-6FFB-4C75-BF74-FF606A5C53E9}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -631,6 +647,6 @@
     ]
    }
   ],
-  "FileHash": "{AA105B89-2252-9CB3-D8FB-784700C83ECB}"
+  "FileHash": "{50A6AE23-47C8-4605-4AAB-E3F1A5AB97B6}"
  }
 }

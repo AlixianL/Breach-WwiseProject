@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2607556080	Menu			\Default Work Unit\Musique\Menu	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	767020205	Menu	.cache\1A\{1A077294-66F7-089A-8154-39532B377AD1}.wem	767020205.wem	\Containers\Default Work Unit\Musique\Menu	
+

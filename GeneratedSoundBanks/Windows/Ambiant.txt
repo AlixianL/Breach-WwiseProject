@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4096606849	RandomTorture			\Default Work Unit\Ambiant\RandomTorture	
+
+Effect plug-ins	ID	Name	Type				Notes
+	83896435	Peak Limiter (Custom)	Wwise Peak Limiter			
+	253392067	Peak Limiter (Custom)	Wwise Peak Limiter			
+	551746811	Peak Limiter (Custom)	Wwise Peak Limiter			
+	701863527	Inside_My_Head	Wwise RoomVerb			
+	888915652	Parametric EQ (Custom)	Wwise Parametric EQ			
+	889555779	Peak Limiter (Custom)	Wwise Peak Limiter			
+	915639822	Peak Limiter (Custom)	Wwise Peak Limiter			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	93991173	ManScream	.cache\99\{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\ManScream		645216
+	526733716	JailDoor	.cache\B3\{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\JailDoor		453984
+	555938431	CreatureScreem	.cache\75\{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\CreatureScreem		1142880
+	719544570	CreatureSound	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\CreatureSound		2596704
+	975917458	ControlePanel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\ControlePanel		136032
+

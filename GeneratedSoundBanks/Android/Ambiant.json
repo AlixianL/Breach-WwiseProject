@@ -1,0 +1,181 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "78669895",
+    "Type": "User",
+    "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
+    "Language": "SFX",
+    "Hash": "{DE096B92-9DEA-DAB1-693C-01E512E6E336}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
+    "ShortName": "Ambiant",
+    "Path": "Ambiant.bnk",
+    "Media": [
+     {
+      "Id": "93991173",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ManScream.wav",
+      "CachePath": "99/{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem"
+     },
+     {
+      "Id": "526733716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\JailDoor.wav",
+      "CachePath": "B3/{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem"
+     },
+     {
+      "Id": "555938431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CreatureScreem.wav",
+      "CachePath": "75/{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem"
+     },
+     {
+      "Id": "719544570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CreatureSound.wav",
+      "CachePath": "32/{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem"
+     },
+     {
+      "Id": "975917458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ControlePanel.wav",
+      "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "83896435",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureScreem\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{B3FFA957-8635-4A96-A654-D8E5A78335EC}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "253392067",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureSound\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{C7F23E28-F33B-45D4-841F-94C3D3209F28}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "551746811",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ManScream\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{EFDA4CA4-92C9-46BD-BC78-ECAA0F23F8CD}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "888915652",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{429DB611-708E-4932-B7FD-128E095034A4}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "889555779",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\JailDoor\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{A51CE536-C73E-415C-8D15-E6A7E23A767C}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "915639822",
+       "Name": "Peak Limiter (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ControlePanel\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
+       "GUID": "{6D97FAD0-88C0-4A58-87EF-5DB6B226A08F}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "701863527",
+       "Name": "Inside_My_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_My_Head",
+       "GUID": "{94B53301-9AA1-468F-8419-92AEDAAE39DF}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2080872166",
+       "Name": "Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "GUID": "{3FF9AD86-E377-40F8-970F-3D4EE73288B5}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4096606849",
+      "Name": "RandomTorture",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\RandomTorture",
+      "GUID": "{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5412245",
+      "DurationMax": "27.048",
+      "MediaRefs": [
+       {
+        "Id": "93991173"
+       },
+       {
+        "Id": "526733716"
+       },
+       {
+        "Id": "555938431"
+       },
+       {
+        "Id": "719544570"
+       },
+       {
+        "Id": "975917458"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "83896435"
+        },
+        {
+         "Id": "253392067"
+        },
+        {
+         "Id": "551746811"
+        },
+        {
+         "Id": "889555779"
+        },
+        {
+         "Id": "915639822"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BF244F6C-56C1-CE74-8D7A-5573E48A2A83}"
+ }
+}

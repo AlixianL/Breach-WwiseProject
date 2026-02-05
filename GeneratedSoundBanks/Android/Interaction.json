@@ -1,0 +1,163 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3900887599",
+    "Type": "User",
+    "GUID": "{46C3FE86-43F2-452E-97C8-A5092C52A721}",
+    "Language": "SFX",
+    "Hash": "{34B86C16-AF07-819D-3B46-187C14B86476}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Interaction",
+    "ShortName": "Interaction",
+    "Path": "Interaction.bnk",
+    "Media": [
+     {
+      "Id": "103784853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Error.wav",
+      "CachePath": "83/{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem"
+     },
+     {
+      "Id": "127512429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PanelOff.wav",
+      "CachePath": "38/{38ED08BB-0803-B664-2338-87295AF732B9}.wem"
+     },
+     {
+      "Id": "193724221",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Right.wav",
+      "CachePath": "9C/{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem"
+     },
+     {
+      "Id": "417891587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Button.wav",
+      "CachePath": "04/{04022146-84D1-9BD9-6442-3015E022B9F2}.wem"
+     },
+     {
+      "Id": "518372867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\ChargingAwnser.wav",
+      "CachePath": "1E/{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem"
+     },
+     {
+      "Id": "547253910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PanelOn.wav",
+      "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "977454165",
+      "Name": "Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Button",
+      "GUID": "{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8265079",
+      "DurationMax": "0.8265079",
+      "MediaRefs": [
+       {
+        "Id": "417891587"
+       }
+      ]
+     },
+     {
+      "Id": "3828622232",
+      "Name": "Charging",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Charging",
+      "GUID": "{5860D269-B82E-46B0-8F8D-760D14C27A17}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0019568",
+      "DurationMax": "1.0019568",
+      "MediaRefs": [
+       {
+        "Id": "518372867"
+       }
+      ]
+     },
+     {
+      "Id": "1880695829",
+      "Name": "Error",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Error",
+      "GUID": "{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9926531",
+      "DurationMax": "0.9926531",
+      "MediaRefs": [
+       {
+        "Id": "103784853"
+       }
+      ]
+     },
+     {
+      "Id": "2091491900",
+      "Name": "PanelOff",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOff",
+      "GUID": "{A7808613-820C-41BF-8730-3BB61A6ECD0D}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18285714",
+      "DurationMax": "0.18285714",
+      "MediaRefs": [
+       {
+        "Id": "127512429"
+       }
+      ]
+     },
+     {
+      "Id": "447558774",
+      "Name": "PanelOn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOn",
+      "GUID": "{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20897959",
+      "DurationMax": "0.20897959",
+      "MediaRefs": [
+       {
+        "Id": "547253910"
+       }
+      ]
+     },
+     {
+      "Id": "3893817417",
+      "Name": "Right",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Right",
+      "GUID": "{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0448979",
+      "DurationMax": "1.0448979",
+      "MediaRefs": [
+       {
+        "Id": "193724221"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A4461F05-7534-1E38-7710-3DAB204D291E}"
+ }
+}
