@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{46C3FE86-43F2-452E-97C8-A5092C52A721}",
     "Language": "SFX",
-    "Hash": "{34B86C16-AF07-819D-3B46-187C14B86476}",
+    "Hash": "{AD10FDA4-53FF-C649-E345-3A1B0456C030}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Interaction",
     "ShortName": "Interaction",
     "Path": "Interaction.bnk",
     "Media": [
+     {
+      "Id": "51881564",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\DoorClosing.wav",
+      "CachePath": "40/{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem"
+     },
      {
       "Id": "103784853",
       "Language": "SFX",
@@ -62,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "SFX\\PanelOn.wav",
       "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
+     },
+     {
+      "Id": "681489843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\PrincipalDoor (1).wav",
+      "CachePath": "FC/{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem"
      }
     ],
     "Events": [
@@ -70,7 +86,7 @@
       "Name": "Button",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Button",
       "GUID": "{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "0.8265079",
       "DurationMax": "0.8265079",
@@ -85,7 +101,7 @@
       "Name": "Charging",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Charging",
       "GUID": "{5860D269-B82E-46B0-8F8D-760D14C27A17}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "1.0019568",
       "DurationMax": "1.0019568",
@@ -96,11 +112,49 @@
       ]
      },
      {
+      "Id": "1827892369",
+      "Name": "DoorSwitchTest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Switch\\DoorSwitchTest",
+      "GUID": "{F28CBBAE-68B2-467B-A456-19CD393AF660}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "3",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1877847629",
+         "Id": "1697683977",
+         "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "51881564"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1877847629",
+         "Id": "1404805401",
+         "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "681489843"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1880695829",
       "Name": "Error",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Error",
       "GUID": "{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "0.9926531",
       "DurationMax": "0.9926531",
@@ -115,7 +169,7 @@
       "Name": "PanelOff",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOff",
       "GUID": "{A7808613-820C-41BF-8730-3BB61A6ECD0D}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "0.18285714",
       "DurationMax": "0.18285714",
@@ -130,7 +184,7 @@
       "Name": "PanelOn",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOn",
       "GUID": "{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "0.20897959",
       "DurationMax": "0.20897959",
@@ -145,7 +199,7 @@
       "Name": "Right",
       "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Right",
       "GUID": "{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}",
-      "Color": "19",
+      "Color": "13",
       "DurationType": "OneShot",
       "DurationMin": "1.0448979",
       "DurationMax": "1.0448979",
@@ -155,9 +209,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1877847629",
+      "Name": "Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Door",
+      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Switches": [
+       {
+        "Id": "1404805401",
+        "Name": "DoorOpen",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorOpen",
+        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+       },
+       {
+        "Id": "1697683977",
+        "Name": "DoorClosed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorClosed",
+        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{A4461F05-7534-1E38-7710-3DAB204D291E}"
+  "FileHash": "{0D157142-7B4D-DB40-EB11-ABD995298242}"
  }
 }
