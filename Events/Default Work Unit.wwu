@@ -81,10 +81,50 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}"/>
-						<Event Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}"/>
-						<Event Name="Event_PanelChargingAwnser" ID="{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}"/>
-						<Event Name="Event_PanelButton" ID="{A19838B1-FEEA-44A1-BC29-C843BE02765B}"/>
+						<Event Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}">
+							<ChildrenList>
+								<Action Name="" ID="{3F775F01-8220-4AA8-8043-8E3417F74609}" ShortID="67528061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CTPN_Cells" ID="{98A9FF0C-3F4F-4F98-84F1-01FD1B01B078}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}">
+							<ChildrenList>
+								<Action Name="" ID="{3732F8F3-ED1A-4A8E-80D8-3A5A208BBE2A}" ShortID="715577922">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CTPN_Awnser" ID="{E9A4C524-5680-4A14-A5E6-2E473EA657D2}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_PanelChargingAwnser" ID="{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}">
+							<ChildrenList>
+								<Action Name="" ID="{CD144328-42EA-4252-9FDD-4AF5AFD6E331}" ShortID="766810753">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_PanelChargingAwnser" ID="{327CF55D-0956-408B-A2A8-AFAE1C0C3FA7}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_PanelButton" ID="{A19838B1-FEEA-44A1-BC29-C843BE02765B}">
+							<ChildrenList>
+								<Action Name="" ID="{7828521C-A1ED-4D78-9711-DF41C87E4BCC}" ShortID="741460479">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_PanelButton" ID="{697F6820-45F8-4A0B-BD26-2323659B03E6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monster" ID="{52D790FD-16F1-4CEB-9FF9-C21C8587D7B6}" ShortID="997528023">

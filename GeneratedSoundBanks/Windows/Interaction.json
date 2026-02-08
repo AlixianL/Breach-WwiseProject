@@ -10,230 +10,212 @@
     "Type": "User",
     "GUID": "{46C3FE86-43F2-452E-97C8-A5092C52A721}",
     "Language": "SFX",
-    "Hash": "{AD10FDA4-53FF-C649-E345-3A1B0456C030}",
+    "Hash": "{9855527C-885E-8C16-D404-6DCD84EDA3C7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Interaction",
     "ShortName": "Interaction",
     "Path": "Interaction.bnk",
     "Media": [
      {
-      "Id": "51881564",
+      "Id": "53046816",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\DoorClosing.wav",
-      "CachePath": "40/{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem"
-     },
-     {
-      "Id": "103784853",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\Error.wav",
+      "ShortName": "SDF_Panel\\SDF_PanelError.wav",
       "CachePath": "83/{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem"
      },
      {
-      "Id": "127512429",
+      "Id": "203856530",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\PanelOff.wav",
-      "CachePath": "38/{38ED08BB-0803-B664-2338-87295AF732B9}.wem"
+      "ShortName": "SDF_Panel\\SDF_PanelChargingAwnser.wav",
+      "CachePath": "8E/{8EF29667-F667-2882-D931-A758E291D122}.wem"
      },
      {
-      "Id": "193724221",
+      "Id": "557688104",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\Right.wav",
-      "CachePath": "9C/{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem"
-     },
-     {
-      "Id": "417891587",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\Button.wav",
-      "CachePath": "04/{04022146-84D1-9BD9-6442-3015E022B9F2}.wem"
-     },
-     {
-      "Id": "518372867",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\ChargingAwnser.wav",
-      "CachePath": "1E/{1E8010EF-1064-E105-0EA3-1E1931C90B58}.wem"
-     },
-     {
-      "Id": "547253910",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\PanelOn.wav",
+      "ShortName": "SDF_Panel\\SDF_PanelCellsON.wav",
       "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
      },
      {
-      "Id": "681489843",
+      "Id": "579398280",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\PrincipalDoor (1).wav",
-      "CachePath": "FC/{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem"
+      "ShortName": "SDF_Panel\\SDF_PanelRight.wav",
+      "CachePath": "9C/{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem"
+     },
+     {
+      "Id": "808561328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Panel\\SDF_PanelButton.wav",
+      "CachePath": "04/{04022146-84D1-9BD9-6442-3015E022B9F2}.wem"
+     },
+     {
+      "Id": "828804054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Panel\\SDF_PanelCellsOFF.wav",
+      "CachePath": "38/{38ED08BB-0803-B664-2338-87295AF732B9}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "977454165",
-      "Name": "Button",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Button",
-      "GUID": "{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}",
-      "Color": "13",
+      "Id": "1784733219",
+      "Name": "Event_PanelAwnsers",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_PanelAwnsers",
+      "GUID": "{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}",
+      "Color": "17",
       "DurationType": "OneShot",
-      "DurationMin": "0.8265079",
-      "DurationMax": "0.8265079",
-      "MediaRefs": [
-       {
-        "Id": "417891587"
-       }
-      ]
-     },
-     {
-      "Id": "3828622232",
-      "Name": "Charging",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Charging",
-      "GUID": "{5860D269-B82E-46B0-8F8D-760D14C27A17}",
-      "Color": "13",
-      "DurationType": "OneShot",
-      "DurationMin": "1.0019568",
-      "DurationMax": "1.0019568",
-      "MediaRefs": [
-       {
-        "Id": "518372867"
-       }
-      ]
-     },
-     {
-      "Id": "1827892369",
-      "Name": "DoorSwitchTest",
-      "ObjectPath": "\\Events\\Default Work Unit\\Switch\\DoorSwitchTest",
-      "GUID": "{F28CBBAE-68B2-467B-A456-19CD393AF660}",
-      "Color": "1",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "3",
+      "DurationMin": "0.9926531",
+      "DurationMax": "1.0448979",
       "SwitchContainers": [
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "1877847629",
-         "Id": "1697683977",
-         "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+         "GroupId": "2262430820",
+         "Id": "3029125631",
+         "GUID": "{8571B201-7982-4C3D-8C37-39D4CD4005F6}"
         },
         "MediaRefs": [
          {
-          "Id": "51881564"
+          "Id": "579398280"
          }
         ]
        },
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "1877847629",
-         "Id": "1404805401",
-         "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+         "GroupId": "2262430820",
+         "Id": "2773511076",
+         "GUID": "{B36CEE7D-007A-4B0D-8E73-14B66CCF8E1F}"
         },
         "MediaRefs": [
          {
-          "Id": "681489843"
+          "Id": "53046816"
          }
         ]
        }
       ]
      },
      {
-      "Id": "1880695829",
-      "Name": "Error",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Error",
-      "GUID": "{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}",
-      "Color": "13",
+      "Id": "3176341328",
+      "Name": "Event_PanelButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_PanelButton",
+      "GUID": "{A19838B1-FEEA-44A1-BC29-C843BE02765B}",
+      "Color": "17",
       "DurationType": "OneShot",
-      "DurationMin": "0.9926531",
-      "DurationMax": "0.9926531",
+      "DurationMin": "0.8265079",
+      "DurationMax": "0.8265079",
       "MediaRefs": [
        {
-        "Id": "103784853"
+        "Id": "808561328"
        }
       ]
      },
      {
-      "Id": "2091491900",
-      "Name": "PanelOff",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOff",
-      "GUID": "{A7808613-820C-41BF-8730-3BB61A6ECD0D}",
-      "Color": "13",
+      "Id": "1383453403",
+      "Name": "Event_PanelCells",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_PanelCells",
+      "GUID": "{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}",
+      "Color": "17",
       "DurationType": "OneShot",
       "DurationMin": "0.18285714",
-      "DurationMax": "0.18285714",
-      "MediaRefs": [
-       {
-        "Id": "127512429"
-       }
-      ]
-     },
-     {
-      "Id": "447558774",
-      "Name": "PanelOn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\PanelOn",
-      "GUID": "{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}",
-      "Color": "13",
-      "DurationType": "OneShot",
-      "DurationMin": "0.20897959",
       "DurationMax": "0.20897959",
-      "MediaRefs": [
+      "SwitchContainers": [
        {
-        "Id": "547253910"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "983796200",
+         "Id": "2012396333",
+         "GUID": "{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "828804054"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "983796200",
+         "Id": "3261813345",
+         "GUID": "{9FE52451-286D-4043-BE41-C34C6C112A5E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "557688104"
+         }
+        ]
        }
       ]
      },
      {
-      "Id": "3893817417",
-      "Name": "Right",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Doors\\Right",
-      "GUID": "{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}",
-      "Color": "13",
+      "Id": "2404256753",
+      "Name": "Event_PanelChargingAwnser",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_PanelChargingAwnser",
+      "GUID": "{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}",
+      "Color": "17",
       "DurationType": "OneShot",
-      "DurationMin": "1.0448979",
-      "DurationMax": "1.0448979",
+      "DurationMin": "5.4857144",
+      "DurationMax": "5.4857144",
       "MediaRefs": [
        {
-        "Id": "193724221"
+        "Id": "203856530"
        }
       ]
      }
     ],
     "SwitchGroups": [
      {
-      "Id": "1877847629",
-      "Name": "Door",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Door",
-      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Id": "983796200",
+      "Name": "STPN_PanelCells",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells",
+      "GUID": "{09F1B252-EB77-443C-A9B2-3D8F4DA58F25}",
       "Switches": [
        {
-        "Id": "1404805401",
-        "Name": "DoorOpen",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorOpen",
-        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+        "Id": "2012396333",
+        "Name": "ST_CellsOFF",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells\\ST_CellsOFF",
+        "GUID": "{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"
        },
        {
-        "Id": "1697683977",
-        "Name": "DoorClosed",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorClosed",
-        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+        "Id": "3261813345",
+        "Name": "ST_CellsON",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells\\ST_CellsON",
+        "GUID": "{9FE52451-286D-4043-BE41-C34C6C112A5E}"
+       }
+      ]
+     },
+     {
+      "Id": "2262430820",
+      "Name": "STPN_PanelAwnsers",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers",
+      "GUID": "{F388DDEA-17ED-4806-8657-6B56B4F26652}",
+      "Switches": [
+       {
+        "Id": "2773511076",
+        "Name": "ST_Failed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers\\ST_Failed",
+        "GUID": "{B36CEE7D-007A-4B0D-8E73-14B66CCF8E1F}"
+       },
+       {
+        "Id": "3029125631",
+        "Name": "ST_Right",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers\\ST_Right",
+        "GUID": "{8571B201-7982-4C3D-8C37-39D4CD4005F6}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{0304E787-5FE3-2AC4-CB17-010DA728878C}"
+  "FileHash": "{DB0D9668-2188-E468-F29C-8C13B7FA1DCB}"
  }
 }

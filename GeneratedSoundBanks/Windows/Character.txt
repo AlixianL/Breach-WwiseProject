@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2364962341	Event_CharacterEmotions			\Default Work Unit\Character\Event_CharacterEmotions	
+	2895626076	Event_CharacterFootSteps			\Default Work Unit\Character\Event_CharacterFootSteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2239109505	STFT_GroundSurface			\Default Work Unit\STFT_GroundSurface	
+
+Switch	ID	Name	Switch Group			Notes
+	258988210	ST_Concrete	STFT_GroundSurface			
+	3271213221	ST_Blood	STFT_GroundSurface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2824974	SDF_FootStepsBloodCharacter_3	.cache\1E\{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterBloodFootSteps\SDF_FootStepsBloodCharacter_3		114010
+	88049520	SDF_FootStepsBloodCharacter_1	.cache\CF\{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterBloodFootSteps\SDF_FootStepsBloodCharacter_1		99292
+	446311049	SDF_FootStepsConcreteCharacter_4	.cache\CB\{CB96D0AB-21D0-F828-980B-DD77527DAE81}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterConcreteFootSteps\SDF_FootStepsConcreteCharacter_4		45548
+	562253382	SDF_FootStepsConcreteCharacter_1	.cache\85\{85DDF0B4-0B06-70DC-417D-44F2D20A1707}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterConcreteFootSteps\SDF_FootStepsConcreteCharacter_1		43504
+	603284980	SDF_FootStepsConcreteCharacter_3	.cache\B9\{B9CA75B9-F645-350E-1BEF-13CEB937EFCB}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterConcreteFootSteps\SDF_FootStepsConcreteCharacter_3		56426
+	673429855	SDF_FootStepsBloodCharacter_2	.cache\BD\{BDBDB00B-1705-804E-7C22-D81514721F98}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterBloodFootSteps\SDF_FootStepsBloodCharacter_2		62784
+	674455931	SDF_FootStepsConcreteCharacter_2	.cache\5F\{5F927842-C79C-18E8-9996-F1EC99293C17}.wem		\Containers\Default Work Unit\Character\SDF_FootStepsCharacter\CT_CharacterFootSteps\RDCT_CharacterConcreteFootSteps\SDF_FootStepsConcreteCharacter_2		57420
+

@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2376328173",
+    "Type": "User",
+    "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
+    "Language": "SFX",
+    "Hash": "{2433CBE4-1B18-4049-A192-D5BA09254F47}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
+    "ShortName": "Monster",
+    "Path": "Monster.bnk"
+   }
+  ],
+  "FileHash": "{8A501114-04D5-8385-2008-2C3B6D1C2F0B}"
+ }
+}

@@ -3,13 +3,13 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{BAE1A547-3EBA-4848-97EE-54B675949552}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{735C2AC9-F248-4EA7-8D3B-7D1C78F13BEA}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="Ambiant" ID="{39AF2508-DE64-42C5-AA41-5A4A03CAD537}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Event_Experience" ID="{0AC1A0D1-7BAB-445D-BF4A-1C997D57D7FA}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_Camera" ID="{6F383357-8DC6-45B7-8DDA-C5AB47587284}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_OpenPodTutorial" ID="{582A6EED-DE40-49EB-9C1F-15D43F906957}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -19,7 +19,25 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Interaction" ID="{46C3FE86-43F2-452E-97C8-A5092C52A721}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Event_PanelButton" ID="{A19838B1-FEEA-44A1-BC29-C843BE02765B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_PanelChargingAwnser" ID="{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Monster" ID="{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}">
 					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Character" ID="{78A2DA09-43A0-41F7-A9FA-E0168D1542B6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Event_CharacterFootSteps" ID="{D8B7A5B1-F6D9-476C-9AA7-241AE6D6A66C}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_CharacterEmotions" ID="{E9DD5B73-26C1-4840-9360-DF8260A30DB2}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -508,7 +508,7 @@
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+											<ObjectRef Name="STDR_Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -566,6 +566,20 @@
 												<ItemRef Name="SDF_ClosedDoorTutorial" ID="{C3B0D6F2-9C30-4779-8CC8-D896BE204306}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="ST_DoorClosed" ID="{66C56FE1-789F-46A7-8811-489DA53DFC6B}"/>
+												<ItemList>
+													<ItemRef Name="SDF_ClosedDoorTutorial" ID="{C3B0D6F2-9C30-4779-8CC8-D896BE204306}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_DoorOpen" ID="{25BB8BFC-88FB-461A-9202-1F0E894160DF}"/>
+												<ItemList>
+													<ItemRef Name="SDF_OpenDoorTutorial" ID="{303EB4B0-E136-42CC-B22A-579A0606CFF9}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
@@ -637,11 +651,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="ST_Concrete" ID="{ED404568-5932-490F-82D0-B8A6DAABBAA7}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="GroundSurface" ID="{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+											<ObjectRef Name="STFT_GroundSurface" ID="{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -839,6 +856,20 @@
 												<ItemRef Name="RDCT_CharacterBloodFootSteps" ID="{ACD9D8FF-C3DC-45F8-861F-1F92F6322FAE}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="ST_Blood" ID="{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"/>
+												<ItemList>
+													<ItemRef Name="RDCT_CharacterBloodFootSteps" ID="{ACD9D8FF-C3DC-45F8-861F-1F92F6322FAE}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_Concrete" ID="{ED404568-5932-490F-82D0-B8A6DAABBAA7}"/>
+												<ItemList>
+													<ItemRef Name="RDCT_CharacterConcreteFootSteps" ID="{D4EC3FB1-7526-48E3-AC77-029751C65904}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
@@ -853,7 +884,7 @@
 					<ChildrenList>
 						<Folder Name="SDF_Panel" ID="{899DBD2E-1D19-4A78-ACFA-7CA26D97AD22}" ShortID="329132540">
 							<ChildrenList>
-								<SwitchContainer Name="SwitchCT_Panel" ID="{2E88ACE0-D30F-4638-B6A7-245B3AE57B6C}" ShortID="1031444576">
+								<Sound Name="SDF_PanelChargingAwnser" ID="{327CF55D-0956-408B-A2A8-AFAE1C0C3FA7}" ShortID="940097082">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -863,28 +894,53 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SDF_PanelCellsOFF" ID="{62B5AB7F-E211-4E9F-9E2C-896DBC0BD2D4}" ShortID="264908088">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SDF_PanelCellsOFF" ID="{BF12D26E-0783-4666-8747-61F5F533A5EB}">
-													<Language>SFX</Language>
-													<AudioFile>SDF_Panel\SDF_PanelCellsOFF.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="828804054"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SDF_PanelCellsOFF" ID="{BF12D26E-0783-4666-8747-61F5F533A5EB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										<AudioFileSource Name="SDF_PanelChargingAwnser" ID="{EE2D4A03-1D27-4C64-9597-0A4D8E5286B9}">
+											<Language>SFX</Language>
+											<AudioFile>SDF_Panel\SDF_PanelChargingAwnser.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="203856530"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SDF_PanelChargingAwnser" ID="{EE2D4A03-1D27-4C64-9597-0A4D8E5286B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SDF_PanelButton" ID="{697F6820-45F8-4A0B-BD26-2323659B03E6}" ShortID="47688579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SDF_PanelButton" ID="{BFC5F00D-8A03-4FA0-968B-7653513017AD}">
+											<Language>SFX</Language>
+											<AudioFile>SDF_Panel\SDF_PanelButton.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="808561328"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SDF_PanelButton" ID="{BFC5F00D-8A03-4FA0-968B-7653513017AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<SwitchContainer Name="CTPN_Awnser" ID="{E9A4C524-5680-4A14-A5E6-2E473EA657D2}" ShortID="428577486">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="STPN_PanelAwnsers" ID="{F388DDEA-17ED-4806-8657-6B56B4F26652}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
 										<Sound Name="SDF_PanelError" ID="{2293EB3A-F0F7-4F7B-A5E2-CAB1A2B664F0}" ShortID="579289205">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -905,72 +961,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SDF_PanelError" ID="{44E6F4FB-1FB8-49A7-A722-034B1EA1D244}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SDF_PanelButton" ID="{697F6820-45F8-4A0B-BD26-2323659B03E6}" ShortID="47688579">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SDF_PanelButton" ID="{BFC5F00D-8A03-4FA0-968B-7653513017AD}">
-													<Language>SFX</Language>
-													<AudioFile>SDF_Panel\SDF_PanelButton.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="808561328"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SDF_PanelButton" ID="{BFC5F00D-8A03-4FA0-968B-7653513017AD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SDF_PanelCellsON" ID="{EA8610AB-EA44-432F-9005-452FF82DB0DA}" ShortID="713363814">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SDF_PanelCellsON" ID="{3E36A089-E0DE-4EA0-8153-AE60268E9A27}">
-													<Language>SFX</Language>
-													<AudioFile>SDF_Panel\SDF_PanelCellsON.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="557688104"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SDF_PanelCellsON" ID="{3E36A089-E0DE-4EA0-8153-AE60268E9A27}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SDF_PanelChargingAwnser" ID="{327CF55D-0956-408B-A2A8-AFAE1C0C3FA7}" ShortID="940097082">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SDF_PanelChargingAwnser" ID="{EE2D4A03-1D27-4C64-9597-0A4D8E5286B9}">
-													<Language>SFX</Language>
-													<AudioFile>SDF_Panel\SDF_PanelChargingAwnser.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="203856530"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SDF_PanelChargingAwnser" ID="{EE2D4A03-1D27-4C64-9597-0A4D8E5286B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_PanelRight" ID="{E65AFBC7-0E28-46D0-88C1-2AB4A92EB17A}" ShortID="968904141">
@@ -999,24 +989,109 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="SDF_PanelButton" ID="{697F6820-45F8-4A0B-BD26-2323659B03E6}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
 												<ItemRef Name="SDF_PanelError" ID="{2293EB3A-F0F7-4F7B-A5E2-CAB1A2B664F0}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="SDF_PanelChargingAwnser" ID="{327CF55D-0956-408B-A2A8-AFAE1C0C3FA7}"/>
+												<ItemRef Name="SDF_PanelRight" ID="{E65AFBC7-0E28-46D0-88C1-2AB4A92EB17A}"/>
 											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="ST_Right" ID="{8571B201-7982-4C3D-8C37-39D4CD4005F6}"/>
+												<ItemList>
+													<ItemRef Name="SDF_PanelRight" ID="{E65AFBC7-0E28-46D0-88C1-2AB4A92EB17A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_Failed" ID="{B36CEE7D-007A-4B0D-8E73-14B66CCF8E1F}"/>
+												<ItemList>
+													<ItemRef Name="SDF_PanelError" ID="{2293EB3A-F0F7-4F7B-A5E2-CAB1A2B664F0}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="CTPN_Cells" ID="{98A9FF0C-3F4F-4F98-84F1-01FD1B01B078}" ShortID="663667309">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="STPN_PanelCells" ID="{09F1B252-EB77-443C-A9B2-3D8F4DA58F25}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SDF_PanelCellsOFF" ID="{62B5AB7F-E211-4E9F-9E2C-896DBC0BD2D4}" ShortID="264908088">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_PanelCellsOFF" ID="{BF12D26E-0783-4666-8747-61F5F533A5EB}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_Panel\SDF_PanelCellsOFF.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828804054"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_PanelCellsOFF" ID="{BF12D26E-0783-4666-8747-61F5F533A5EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SDF_PanelCellsON" ID="{EA8610AB-EA44-432F-9005-452FF82DB0DA}" ShortID="713363814">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_PanelCellsON" ID="{3E36A089-E0DE-4EA0-8153-AE60268E9A27}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_Panel\SDF_PanelCellsON.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="557688104"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_PanelCellsON" ID="{3E36A089-E0DE-4EA0-8153-AE60268E9A27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="SDF_PanelCellsOFF" ID="{62B5AB7F-E211-4E9F-9E2C-896DBC0BD2D4}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="SDF_PanelCellsON" ID="{EA8610AB-EA44-432F-9005-452FF82DB0DA}"/>
 											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="SDF_PanelRight" ID="{E65AFBC7-0E28-46D0-88C1-2AB4A92EB17A}"/>
-											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="ST_CellsOFF" ID="{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"/>
+												<ItemList>
+													<ItemRef Name="SDF_PanelCellsOFF" ID="{62B5AB7F-E211-4E9F-9E2C-896DBC0BD2D4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_CellsON" ID="{9FE52451-286D-4043-BE41-C34C6C112A5E}"/>
+												<ItemList>
+													<ItemRef Name="SDF_PanelCellsON" ID="{EA8610AB-EA44-432F-9005-452FF82DB0DA}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
@@ -1423,7 +1498,6 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="SDF_AmbiantExperience" ID="{F9F6F2B9-E61C-4C16-ADBE-EE79CA0C496F}" ShortID="207236808"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

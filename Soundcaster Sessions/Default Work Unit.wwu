@@ -6,12 +6,20 @@
 				<SoundcasterSession Name="Player" ID="{81BEDA76-C9A0-4C3C-B808-AEBBAB80C961}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="CT_CharacterFootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+							<ObjectRef Name="Event_CharacterFootSteps" ID="{D8B7A5B1-F6D9-476C-9AA7-241AE6D6A66C}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 				</SoundcasterSession>

@@ -1,20 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4096606849	RandomTorture			\Default Work Unit\Ambiant\RandomTorture	
+	1369403161	Event_OpenPodTutorial			\Default Work Unit\Ambiant\Event_OpenPodTutorial	
+	2579753370	Event_Experience			\Default Work Unit\Ambiant\Event_Experience	
+	3260722596	Event_DoorTutorial			\Default Work Unit\Ambiant\Event_DoorTutorial	
+	3321259527	Event_Camera			\Default Work Unit\Ambiant\Event_Camera	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	88520285	STDR_Door			\Default Work Unit\STDR_Door	
+
+Switch	ID	Name	Switch Group			Notes
+	2140200319	ST_DoorOpen	STDR_Door			
+	2512980907	ST_DoorClosed	STDR_Door			
 
 Effect plug-ins	ID	Name	Type				Notes
-	83896435	Peak Limiter (Custom)	Wwise Peak Limiter			
-	253392067	Peak Limiter (Custom)	Wwise Peak Limiter			
-	551746811	Peak Limiter (Custom)	Wwise Peak Limiter			
 	701863527	Inside_My_Head	Wwise RoomVerb			
 	888915652	Parametric EQ (Custom)	Wwise Parametric EQ			
-	889555779	Peak Limiter (Custom)	Wwise Peak Limiter			
-	915639822	Peak Limiter (Custom)	Wwise Peak Limiter			
 	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	93991173	ManScream	.cache\99\{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\ManScream		645216
-	526733716	JailDoor	.cache\B3\{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\JailDoor		453984
-	555938431	CreatureScreem	.cache\75\{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\CreatureScreem		1142880
-	719544570	CreatureSound	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\CreatureSound		2596704
-	975917458	ControlePanel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\Torture\TortureRandom\ControlePanel		136032
+	206607695	SDF_JailDoor	.cache\B3\{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_JailDoor		453984
+	243775220	SDF_OpenPodTutorial	.cache\C0\{C019D53C-384C-6ABE-F706-AF3EF59E508D}.wem		\Containers\Default Work Unit\Ambiant\SDF_PodTutorial\SDF_OpenPodTutorial		2870364
+	248271940	SDF_CameraMoving	.cache\FD\{FDBD9085-8784-10A1-AF96-8FB3A20C7049}.wem		\Containers\Default Work Unit\Ambiant\SDF_Camera\SDF_CameraMoving		335964
+	330859100	SDF_ClosedDoorTutorial	.cache\40\{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_ClosedDoorTutorial		352896
+	338844934	SDF_DeathMan	.cache\99\{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_DeathMan		645216
+	348565895	SDF_OpenDoorTutorial	.cache\FC\{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_OpenDoorTutorial		529296
+	554611734	SDF_Panel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_Panel		136032
+	822209333	SDF_CreatureScream	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_CreatureScream		2596704
+	879574641	SDF_CreatureHurt	.cache\75\{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_CreatureHurt		1142880
 

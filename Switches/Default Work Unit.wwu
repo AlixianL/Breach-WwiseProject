@@ -3,16 +3,28 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="GroundSurface" ID="{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}">
+				<SwitchGroup Name="STFT_GroundSurface" ID="{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}">
 					<ChildrenList>
-						<Switch Name="Concrete" ID="{ED404568-5932-490F-82D0-B8A6DAABBAA7}"/>
-						<Switch Name="Blood" ID="{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"/>
+						<Switch Name="ST_Concrete" ID="{ED404568-5932-490F-82D0-B8A6DAABBAA7}"/>
+						<Switch Name="ST_Blood" ID="{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}">
+				<SwitchGroup Name="STDR_Door" ID="{02AA8D42-A990-4440-A89D-620719C0B0A6}">
 					<ChildrenList>
-						<Switch Name="DoorOpen" ID="{25BB8BFC-88FB-461A-9202-1F0E894160DF}"/>
-						<Switch Name="DoorClosed" ID="{66C56FE1-789F-46A7-8811-489DA53DFC6B}"/>
+						<Switch Name="ST_DoorOpen" ID="{25BB8BFC-88FB-461A-9202-1F0E894160DF}"/>
+						<Switch Name="ST_DoorClosed" ID="{66C56FE1-789F-46A7-8811-489DA53DFC6B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="STPN_PanelAwnsers" ID="{F388DDEA-17ED-4806-8657-6B56B4F26652}">
+					<ChildrenList>
+						<Switch Name="ST_Right" ID="{8571B201-7982-4C3D-8C37-39D4CD4005F6}"/>
+						<Switch Name="ST_Failed" ID="{B36CEE7D-007A-4B0D-8E73-14B66CCF8E1F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="STPN_PanelCells" ID="{09F1B252-EB77-443C-A9B2-3D8F4DA58F25}">
+					<ChildrenList>
+						<Switch Name="ST_CellsON" ID="{9FE52451-286D-4043-BE41-C34C6C112A5E}"/>
+						<Switch Name="ST_CellsOFF" ID="{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

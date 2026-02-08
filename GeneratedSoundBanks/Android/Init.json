@@ -128,42 +128,82 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "953937849",
-      "Name": "GroundSurface",
-      "ObjectPath": "\\Switches\\Default Work Unit\\GroundSurface",
+      "Id": "88520285",
+      "Name": "STDR_Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door",
+      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Switches": [
+       {
+        "Id": "2140200319",
+        "Name": "ST_DoorOpen",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door\\ST_DoorOpen",
+        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+       },
+       {
+        "Id": "2512980907",
+        "Name": "ST_DoorClosed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door\\ST_DoorClosed",
+        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+       }
+      ]
+     },
+     {
+      "Id": "983796200",
+      "Name": "STPN_PanelCells",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells",
+      "GUID": "{09F1B252-EB77-443C-A9B2-3D8F4DA58F25}",
+      "Switches": [
+       {
+        "Id": "2012396333",
+        "Name": "ST_CellsOFF",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells\\ST_CellsOFF",
+        "GUID": "{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"
+       },
+       {
+        "Id": "3261813345",
+        "Name": "ST_CellsON",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelCells\\ST_CellsON",
+        "GUID": "{9FE52451-286D-4043-BE41-C34C6C112A5E}"
+       }
+      ]
+     },
+     {
+      "Id": "2239109505",
+      "Name": "STFT_GroundSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface",
       "GUID": "{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}",
       "Switches": [
        {
-        "Id": "841620460",
-        "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundSurface\\Concrete",
+        "Id": "258988210",
+        "Name": "ST_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface\\ST_Concrete",
         "GUID": "{ED404568-5932-490F-82D0-B8A6DAABBAA7}"
        },
        {
-        "Id": "3934470635",
-        "Name": "Blood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\GroundSurface\\Blood",
+        "Id": "3271213221",
+        "Name": "ST_Blood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface\\ST_Blood",
         "GUID": "{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"
        }
       ]
      },
      {
-      "Id": "1877847629",
-      "Name": "Door",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Door",
-      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Id": "2262430820",
+      "Name": "STPN_PanelAwnsers",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers",
+      "GUID": "{F388DDEA-17ED-4806-8657-6B56B4F26652}",
       "Switches": [
        {
-        "Id": "1404805401",
-        "Name": "DoorOpen",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorOpen",
-        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+        "Id": "2773511076",
+        "Name": "ST_Failed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers\\ST_Failed",
+        "GUID": "{B36CEE7D-007A-4B0D-8E73-14B66CCF8E1F}"
        },
        {
-        "Id": "1697683977",
-        "Name": "DoorClosed",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Door\\DoorClosed",
-        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+        "Id": "3029125631",
+        "Name": "ST_Right",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STPN_PanelAwnsers\\ST_Right",
+        "GUID": "{8571B201-7982-4C3D-8C37-39D4CD4005F6}"
        }
       ]
      }
@@ -647,6 +687,6 @@
     ]
    }
   ],
-  "FileHash": "{B3AC7B5D-1F5C-86BC-6166-D1C648D41C0A}"
+  "FileHash": "{39209591-29AF-DE8E-4655-56F4F495EA37}"
  }
 }

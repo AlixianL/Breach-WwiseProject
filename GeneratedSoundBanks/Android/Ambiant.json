@@ -10,101 +10,93 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{DE096B92-9DEA-DAB1-693C-01E512E6E336}",
+    "Hash": "{79999C5F-CEA0-7DCB-B883-5C8A617A2CA8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
     "Media": [
      {
-      "Id": "93991173",
+      "Id": "206607695",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\ManScream.wav",
-      "CachePath": "99/{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem"
-     },
-     {
-      "Id": "526733716",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX\\JailDoor.wav",
+      "ShortName": "SDF_AmbiantExperience\\SDF_JailDoor.wav",
       "CachePath": "B3/{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem"
      },
      {
-      "Id": "555938431",
+      "Id": "243775220",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\CreatureScreem.wav",
-      "CachePath": "75/{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem"
+      "ShortName": "SDF_PodTutorial\\SDF_OpenPodTutorial.wav",
+      "CachePath": "C0/{C019D53C-384C-6ABE-F706-AF3EF59E508D}.wem"
      },
      {
-      "Id": "719544570",
+      "Id": "248271940",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\CreatureSound.wav",
+      "ShortName": "SDF_Camera\\SDF_CameraMoving.wav",
+      "CachePath": "FD/{FDBD9085-8784-10A1-AF96-8FB3A20C7049}.wem"
+     },
+     {
+      "Id": "330859100",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_DoorTutorial\\SDF_ClosedDoorTutorial.wav",
+      "CachePath": "40/{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem"
+     },
+     {
+      "Id": "338844934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_AmbiantExperience\\SDF_DeathMan.wav",
+      "CachePath": "99/{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem"
+     },
+     {
+      "Id": "348565895",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_DoorTutorial\\SDF_OpenDoorTutorial.wav",
+      "CachePath": "FC/{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem"
+     },
+     {
+      "Id": "554611734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_AmbiantExperience\\SDF_Panel.wav",
+      "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
+     },
+     {
+      "Id": "822209333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_AmbiantExperience\\SDF_CreatureScream.wav",
       "CachePath": "32/{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem"
      },
      {
-      "Id": "975917458",
+      "Id": "879574641",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX\\ControlePanel.wav",
-      "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
+      "ShortName": "SDF_AmbiantExperience\\SDF_CreatureHurt.wav",
+      "CachePath": "75/{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem"
      }
     ],
     "Plugins": {
      "Custom": [
       {
-       "Id": "83896435",
-       "Name": "Peak Limiter (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureScreem\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
-       "GUID": "{B3FFA957-8635-4A96-A654-D8E5A78335EC}",
-       "LibName": "Wwise Peak Limiter",
-       "LibId": "7208963"
-      },
-      {
-       "Id": "253392067",
-       "Name": "Peak Limiter (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\CreatureSound\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
-       "GUID": "{C7F23E28-F33B-45D4-841F-94C3D3209F28}",
-       "LibName": "Wwise Peak Limiter",
-       "LibId": "7208963"
-      },
-      {
-       "Id": "551746811",
-       "Name": "Peak Limiter (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ManScream\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
-       "GUID": "{EFDA4CA4-92C9-46BD-BC78-ECAA0F23F8CD}",
-       "LibName": "Wwise Peak Limiter",
-       "LibId": "7208963"
-      },
-      {
        "Id": "888915652",
        "Name": "Parametric EQ (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\SDF_AmbiantExperience\\Experience\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
        "GUID": "{429DB611-708E-4932-B7FD-128E095034A4}",
        "LibName": "Wwise Parametric EQ",
        "LibId": "6881283"
-      },
-      {
-       "Id": "889555779",
-       "Name": "Peak Limiter (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\JailDoor\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
-       "GUID": "{A51CE536-C73E-415C-8D15-E6A7E23A767C}",
-       "LibName": "Wwise Peak Limiter",
-       "LibId": "7208963"
-      },
-      {
-       "Id": "915639822",
-       "Name": "Peak Limiter (Custom)",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Ambiant\\Torture\\TortureRandom\\ControlePanel\\[Effect Slot [0]: (Peak Limiter)]\\Peak Limiter (Custom)",
-       "GUID": "{6D97FAD0-88C0-4A58-87EF-5DB6B226A08F}",
-       "LibName": "Wwise Peak Limiter",
-       "LibId": "7208963"
       }
      ],
      "ShareSets": [
@@ -128,54 +120,140 @@
     },
     "Events": [
      {
-      "Id": "4096606849",
-      "Name": "RandomTorture",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\RandomTorture",
-      "GUID": "{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}",
-      "Color": "17",
+      "Id": "3321259527",
+      "Name": "Event_Camera",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Camera",
+      "GUID": "{6F383357-8DC6-45B7-8DDA-C5AB47587284}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9040136",
+      "DurationMax": "1.9040136",
+      "MediaRefs": [
+       {
+        "Id": "248271940"
+       }
+      ]
+     },
+     {
+      "Id": "3260722596",
+      "Name": "Event_DoorTutorial",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_DoorTutorial",
+      "GUID": "{0F243934-7491-4707-B12D-06427FFFE95B}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "3",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "88520285",
+         "Id": "2512980907",
+         "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "330859100"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "88520285",
+         "Id": "2140200319",
+         "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348565895"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2579753370",
+      "Name": "Event_Experience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Experience",
+      "GUID": "{0AC1A0D1-7BAB-445D-BF4A-1C997D57D7FA}",
+      "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "1.5412245",
       "DurationMax": "27.048",
       "MediaRefs": [
        {
-        "Id": "93991173"
+        "Id": "206607695"
        },
        {
-        "Id": "526733716"
+        "Id": "338844934"
        },
        {
-        "Id": "555938431"
+        "Id": "554611734"
        },
        {
-        "Id": "719544570"
+        "Id": "822209333"
        },
        {
-        "Id": "975917458"
+        "Id": "879574641"
        }
       ],
       "PluginRefs": {
        "Custom": [
         {
-         "Id": "83896435"
+         "Id": "888915652"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "701863527"
         },
         {
-         "Id": "253392067"
-        },
-        {
-         "Id": "551746811"
-        },
-        {
-         "Id": "889555779"
-        },
-        {
-         "Id": "915639822"
+         "Id": "2080872166"
         }
        ]
       }
+     },
+     {
+      "Id": "1369403161",
+      "Name": "Event_OpenPodTutorial",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_OpenPodTutorial",
+      "GUID": "{582A6EED-DE40-49EB-9C1F-15D43F906957}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "16.27136",
+      "DurationMax": "16.27136",
+      "MediaRefs": [
+       {
+        "Id": "243775220"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "88520285",
+      "Name": "STDR_Door",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door",
+      "GUID": "{02AA8D42-A990-4440-A89D-620719C0B0A6}",
+      "Switches": [
+       {
+        "Id": "2140200319",
+        "Name": "ST_DoorOpen",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door\\ST_DoorOpen",
+        "GUID": "{25BB8BFC-88FB-461A-9202-1F0E894160DF}"
+       },
+       {
+        "Id": "2512980907",
+        "Name": "ST_DoorClosed",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STDR_Door\\ST_DoorClosed",
+        "GUID": "{66C56FE1-789F-46A7-8811-489DA53DFC6B}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{BF244F6C-56C1-CE74-8D7A-5573E48A2A83}"
+  "FileHash": "{44407C67-6E45-CABA-374D-5AA424441125}"
  }
 }

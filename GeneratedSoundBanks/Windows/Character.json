@@ -1,0 +1,168 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "436743010",
+    "Type": "User",
+    "GUID": "{78A2DA09-43A0-41F7-A9FA-E0168D1542B6}",
+    "Language": "SFX",
+    "Hash": "{FC4EF06C-9FB6-1C1A-BE45-402A498505EB}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
+    "ShortName": "Character",
+    "Path": "Character.bnk",
+    "Media": [
+     {
+      "Id": "2824974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsBloodCharacter\\SDF_FootStepsBloodCharacter_3.wav",
+      "CachePath": "1E/{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem"
+     },
+     {
+      "Id": "88049520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsBloodCharacter\\SDF_FootStepsBloodCharacter_1.wav",
+      "CachePath": "CF/{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem"
+     },
+     {
+      "Id": "446311049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsConcreteCharacter\\SDF_FootStepsConcreteCharacter_4.wav",
+      "CachePath": "CB/{CB96D0AB-21D0-F828-980B-DD77527DAE81}.wem"
+     },
+     {
+      "Id": "562253382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsConcreteCharacter\\SDF_FootStepsConcreteCharacter_1.wav",
+      "CachePath": "85/{85DDF0B4-0B06-70DC-417D-44F2D20A1707}.wem"
+     },
+     {
+      "Id": "603284980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsConcreteCharacter\\SDF_FootStepsConcreteCharacter_3.wav",
+      "CachePath": "B9/{B9CA75B9-F645-350E-1BEF-13CEB937EFCB}.wem"
+     },
+     {
+      "Id": "673429855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsBloodCharacter\\SDF_FootStepsBloodCharacter_2.wav",
+      "CachePath": "BD/{BDBDB00B-1705-804E-7C22-D81514721F98}.wem"
+     },
+     {
+      "Id": "674455931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsConcreteCharacter\\SDF_FootStepsConcreteCharacter_2.wav",
+      "CachePath": "5F/{5F927842-C79C-18E8-9996-F1EC99293C17}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2364962341",
+      "Name": "Event_CharacterEmotions",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Event_CharacterEmotions",
+      "GUID": "{E9DD5B73-26C1-4840-9360-DF8260A30DB2}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2895626076",
+      "Name": "Event_CharacterFootSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Event_CharacterFootSteps",
+      "GUID": "{D8B7A5B1-F6D9-476C-9AA7-241AE6D6A66C}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45216668",
+      "DurationMax": "1.1866041",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2239109505",
+         "Id": "3271213221",
+         "GUID": "{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "2824974"
+         },
+         {
+          "Id": "88049520"
+         },
+         {
+          "Id": "673429855"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2239109505",
+         "Id": "258988210",
+         "GUID": "{ED404568-5932-490F-82D0-B8A6DAABBAA7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "446311049"
+         },
+         {
+          "Id": "562253382"
+         },
+         {
+          "Id": "603284980"
+         },
+         {
+          "Id": "674455931"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2239109505",
+      "Name": "STFT_GroundSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface",
+      "GUID": "{AF60C262-5E85-4638-BCEA-24C2E6B4FA31}",
+      "Switches": [
+       {
+        "Id": "258988210",
+        "Name": "ST_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface\\ST_Concrete",
+        "GUID": "{ED404568-5932-490F-82D0-B8A6DAABBAA7}"
+       },
+       {
+        "Id": "3271213221",
+        "Name": "ST_Blood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface\\ST_Blood",
+        "GUID": "{7A0A6C2E-9CCC-43DF-A158-0AD1301D5B25}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{50A9ECBB-5BED-610A-A335-7326BE861872}"
+ }
+}
