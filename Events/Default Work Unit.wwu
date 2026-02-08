@@ -3,30 +3,37 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Switch" ID="{EF46579E-B443-426C-A570-B996555DA1A9}" ShortID="58358508">
+				<Folder Name="Ambiant" ID="{1EB561E0-DF40-4813-A66A-2B910C007FEC}" ShortID="1044196655">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_FootSteps" ID="{8FCBE18C-0AF1-4AC4-9C55-D4909131BDCE}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="14"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<Event Name="Event_Experience" ID="{0AC1A0D1-7BAB-445D-BF4A-1C997D57D7FA}">
 							<ChildrenList>
-								<Action Name="" ID="{AA38B20E-893A-4554-9E4E-304338B90121}" ShortID="781825960">
+								<Action Name="" ID="{01EBAFC0-05C0-4CCB-8DA0-D068AAF063AF}" ShortID="357169585">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+											<ObjectRef Name="Experience" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="DoorSwitchTest" ID="{F28CBBAE-68B2-467B-A456-19CD393AF660}">
+						<Event Name="Event_Camera" ID="{6F383357-8DC6-45B7-8DDA-C5AB47587284}">
 							<ChildrenList>
-								<Action Name="" ID="{09DAEA9E-8B39-4986-A376-744858E25E0C}" ShortID="339943539">
+								<Action Name="" ID="{DC430CFE-E74B-4AC7-9867-31363E9139D2}" ShortID="411543024">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_CameraMoving" ID="{F256FBE7-1BAA-49CC-A5B7-0B06A049CF5F}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}">
+							<ChildrenList>
+								<Action Name="" ID="{47612AE4-355C-404F-A54A-5F3E73800841}" ShortID="291436335">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
@@ -35,35 +42,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-					</ChildrenList>
-				</Folder>
-				<Event Name="Test" ID="{9878E31C-8428-4201-9DCF-4CB8F4E874C4}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="19"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{51EF95B4-62D0-4FE6-8009-2C081C42F92C}" ShortID="765588251">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Punch" ID="{7B36CF3A-87F6-4B28-9576-781CEA658B0A}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Folder Name="Ambiant" ID="{D56FFE0F-2171-44D2-B6FA-EF6A52175AAB}" ShortID="671293389">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Event Name="RandomTorture" ID="{9B00B1AF-A9E6-45D6-9D6F-9625FDD6A46B}">
+						<Event Name="Event_OpenPodTutorial" ID="{582A6EED-DE40-49EB-9C1F-15D43F906957}">
 							<ChildrenList>
-								<Action Name="" ID="{0178D949-7DD1-43F9-84EE-89166533DABE}" ShortID="555017443">
+								<Action Name="" ID="{4B8B1E52-C3B7-4DA9-842C-63111D2805B9}" ShortID="1069274422">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="TortureRandom" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+											<ObjectRef Name="SDF_OpenPodTutorial" ID="{02D56C20-97F4-4DB3-86E6-3B1E002159B5}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -71,120 +55,19 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Interaction" ID="{B177AC26-DC0C-4352-BA18-0B721B9EA1C9}" ShortID="992733329">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="13"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Folder Name="Doors" ID="{E2CD454F-4D10-4C29-9A24-8D46C5A2AAEF}" ShortID="913694857">
-							<ChildrenList>
-								<Event Name="Charging" ID="{5860D269-B82E-46B0-8F8D-760D14C27A17}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{F20F6198-7070-489A-BC7B-06DCAC121295}" ShortID="469205495">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="ChargingAwnser" ID="{49919A68-DC8B-4B49-B377-EF710FC6D087}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Error" ID="{F4773F2A-9BEB-46A2-B4A7-29FA4B79779B}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{165AD632-2ED6-4824-B06B-B20D4C6F2714}" ShortID="683725092">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Error" ID="{058B5312-4DE1-4B53-9003-DDEFB0DA5FEF}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="PanelOff" ID="{A7808613-820C-41BF-8730-3BB61A6ECD0D}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{10BD89EB-A787-44EC-9608-6B5A395A6A8D}" ShortID="333448816">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="PanelOff" ID="{CFA8D73A-A739-440C-B055-D3AC811A3742}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="PanelOn" ID="{BD4BF91C-A6AB-4FD5-A0E7-7D8AE41F92EC}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{D2373EDE-2B32-49C7-8D73-DEF7F6E688DD}" ShortID="91520465">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="PanelOn" ID="{27DF395B-2971-4070-800D-E299E314A67E}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Right" ID="{161B8FB0-D44D-4914-AD5A-E85CD7ADE45A}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{EE8941E1-5F7E-4E00-A338-1A34599251F5}" ShortID="439407454">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Right" ID="{DC269040-633D-487A-AF65-5513ACA92154}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Button" ID="{1DAAF14A-AB6D-46D4-A310-31F6A2F2501D}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="19"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{B5EBA7CA-CD9F-4595-B072-9DBAB1B4EF02}" ShortID="1047285728">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Button" ID="{55EAD99F-A6F1-410C-BC1D-A44CB32F1AC6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Musique" ID="{35712507-4DD2-4164-A453-5F2D99212B7E}" ShortID="529809629">
+				<Folder Name="Character" ID="{35A59888-0B52-4E1D-84B9-21333388778D}" ShortID="922483013">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Menu" ID="{FA417040-3669-48C7-9361-45AB0A3BB9C3}">
+						<Event Name="Event_CharacterEmotions" ID="{E9DD5B73-26C1-4840-9360-DF8260A30DB2}"/>
+						<Event Name="Event_CharacterFootSteps" ID="{D8B7A5B1-F6D9-476C-9AA7-241AE6D6A66C}">
 							<ChildrenList>
-								<Action Name="" ID="{24405F54-41EF-4901-B271-287038F5D759}" ShortID="146822261">
+								<Action Name="" ID="{1E9F72CC-3FA2-489E-8F14-277847BFFADF}" ShortID="245719365">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Menu" ID="{484A9F53-29D1-4AD7-8E59-619B6AACE4A2}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+											<ObjectRef Name="CT_CharacterFootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -192,9 +75,27 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Character" ID="{703D137A-1455-4D39-8E38-C3DDA2754C11}" ShortID="377056764">
+				<Folder Name="Interaction" ID="{9E933D3F-AAF4-4AC4-94B3-DC334AE8767E}" ShortID="698855928">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}"/>
+						<Event Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}"/>
+						<Event Name="Event_PanelChargingAwnser" ID="{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}"/>
+						<Event Name="Event_PanelButton" ID="{A19838B1-FEEA-44A1-BC29-C843BE02765B}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Monster" ID="{52D790FD-16F1-4CEB-9FF9-C21C8587D7B6}" ShortID="997528023">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Music" ID="{2EBBA59A-51C1-4071-81BC-70EBDFC206F7}" ShortID="862442756">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 				</Folder>

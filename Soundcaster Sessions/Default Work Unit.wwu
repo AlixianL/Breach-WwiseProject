@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="Player" ID="{81BEDA76-C9A0-4C3C-B808-AEBBAB80C961}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="FootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+							<ObjectRef Name="CT_CharacterFootSteps" ID="{8F4F699A-B503-4A1D-9966-039E22B6E610}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
