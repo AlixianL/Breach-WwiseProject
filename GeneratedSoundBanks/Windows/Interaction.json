@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{46C3FE86-43F2-452E-97C8-A5092C52A721}",
     "Language": "SFX",
-    "Hash": "{9855527C-885E-8C16-D404-6DCD84EDA3C7}",
+    "Hash": "{295BECFC-D435-CA2C-232F-8E4325FF4B5D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Interaction",
     "ShortName": "Interaction",
     "Path": "Interaction.bnk",
@@ -40,12 +40,28 @@
       "CachePath": "54/{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem"
      },
      {
+      "Id": "568215691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_UiBack.wav",
+      "CachePath": "4F/{4F81D278-A7FE-47FB-AE20-4AD0A7184385}.wem"
+     },
+     {
       "Id": "579398280",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_Panel\\SDF_PanelRight.wav",
       "CachePath": "9C/{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem"
+     },
+     {
+      "Id": "642822641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_UiSelect.wav",
+      "CachePath": "51/{513ABFE4-1BEF-70E9-EB1D-7CCD3B37C108}.wem"
      },
      {
       "Id": "808561328",
@@ -170,6 +186,36 @@
         "Id": "203856530"
        }
       ]
+     },
+     {
+      "Id": "2960818937",
+      "Name": "Event_UiBack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_UiBack",
+      "GUID": "{05F2E8EA-4115-4D72-B195-C84DDAEB8B53}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33241665",
+      "DurationMax": "0.33241665",
+      "MediaRefs": [
+       {
+        "Id": "568215691"
+       }
+      ]
+     },
+     {
+      "Id": "2384022221",
+      "Name": "Event_UiPress",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interaction\\Event_UiPress",
+      "GUID": "{5DCC90B8-AC6E-421B-8801-ECAEE683C2DB}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13061224",
+      "DurationMax": "0.13061224",
+      "MediaRefs": [
+       {
+        "Id": "642822641"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -216,6 +262,6 @@
     ]
    }
   ],
-  "FileHash": "{DB0D9668-2188-E468-F29C-8C13B7FA1DCB}"
+  "FileHash": "{5AD296FF-3202-E660-9D3F-7B3032D8735F}"
  }
 }

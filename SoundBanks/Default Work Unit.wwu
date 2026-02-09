@@ -20,10 +20,12 @@
 				</SoundBank>
 				<SoundBank Name="Interaction" ID="{46C3FE86-43F2-452E-97C8-A5092C52A721}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Event_UiPress" ID="{5DCC90B8-AC6E-421B-8801-ECAEE683C2DB}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_PanelButton" ID="{A19838B1-FEEA-44A1-BC29-C843BE02765B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_PanelChargingAwnser" ID="{854FD7EB-3AE0-4B7E-A0BA-A1F586990ABC}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_PanelAwnsers" ID="{4C089376-D0F4-4C27-9FAB-78EC3F2B29D9}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_PanelCells" ID="{7F6D1893-35BD-4C7F-AA73-29B014D2F79D}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_UiBack" ID="{05F2E8EA-4115-4D72-B195-C84DDAEB8B53}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

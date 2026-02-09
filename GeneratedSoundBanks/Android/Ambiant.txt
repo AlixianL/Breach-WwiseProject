@@ -14,6 +14,7 @@ Switch	ID	Name	Switch Group			Notes
 Effect plug-ins	ID	Name	Type				Notes
 	701863527	Inside_My_Head	Wwise RoomVerb			
 	888915652	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -21,7 +22,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	243775220	SDF_OpenPodTutorial	.cache\C0\{C019D53C-384C-6ABE-F706-AF3EF59E508D}.wem		\Containers\Default Work Unit\Ambiant\SDF_PodTutorial\SDF_OpenPodTutorial		2870364
 	248271940	SDF_CameraMoving	.cache\FD\{FDBD9085-8784-10A1-AF96-8FB3A20C7049}.wem		\Containers\Default Work Unit\Ambiant\SDF_Camera\SDF_CameraMoving		335964
 	330859100	SDF_ClosedDoorTutorial	.cache\40\{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_ClosedDoorTutorial		352896
-	338844934	SDF_DeathMan	.cache\99\{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_DeathMan		645216
 	348565895	SDF_OpenDoorTutorial	.cache\FC\{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_OpenDoorTutorial		529296
 	554611734	SDF_Panel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_Panel		136032
 	822209333	SDF_CreatureScream	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_CreatureScream		2596704

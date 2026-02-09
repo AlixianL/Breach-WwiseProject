@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{79999C5F-CEA0-7DCB-B883-5C8A617A2CA8}",
+    "Hash": "{461E1247-1E3E-D867-076D-D28D29BC152E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
@@ -46,14 +46,6 @@
       "Location": "Memory",
       "ShortName": "SDF_DoorTutorial\\SDF_ClosedDoorTutorial.wav",
       "CachePath": "40/{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem"
-     },
-     {
-      "Id": "338844934",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SDF_AmbiantExperience\\SDF_DeathMan.wav",
-      "CachePath": "99/{99449E62-E402-1FAF-4296-3882ECB3F4FE}.wem"
      },
      {
       "Id": "348565895",
@@ -107,6 +99,14 @@
        "GUID": "{94B53301-9AA1-468F-8419-92AEDAAE39DF}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
+      },
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
       },
       {
        "Id": "2080872166",
@@ -186,9 +186,6 @@
         "Id": "206607695"
        },
        {
-        "Id": "338844934"
-       },
-       {
         "Id": "554611734"
        },
        {
@@ -207,6 +204,9 @@
        "ShareSets": [
         {
          "Id": "701863527"
+        },
+        {
+         "Id": "1008402193"
         },
         {
          "Id": "2080872166"
@@ -254,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{44407C67-6E45-CABA-374D-5AA424441125}"
+  "FileHash": "{8CA4059C-BCA4-5232-CCFE-101CE749B0A0}"
  }
 }

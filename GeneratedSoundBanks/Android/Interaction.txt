@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1383453403	Event_PanelCells			\Default Work Unit\Interaction\Event_PanelCells	
 	1784733219	Event_PanelAwnsers			\Default Work Unit\Interaction\Event_PanelAwnsers	
+	2384022221	Event_UiPress			\Default Work Unit\Interaction\Event_UiPress	
 	2404256753	Event_PanelChargingAwnser			\Default Work Unit\Interaction\Event_PanelChargingAwnser	
+	2960818937	Event_UiBack			\Default Work Unit\Interaction\Event_UiBack	
 	3176341328	Event_PanelButton			\Default Work Unit\Interaction\Event_PanelButton	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -18,7 +20,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	53046816	SDF_PanelError	.cache\83\{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Awnser\SDF_PanelError		175200
 	203856530	SDF_PanelChargingAwnser	.cache\8E\{8EF29667-F667-2882-D931-A758E291D122}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\SDF_PanelChargingAwnser		967776
 	557688104	SDF_PanelCellsON	.cache\54\{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Cells\SDF_PanelCellsON		36960
+	568215691	SDF_UiBack	.cache\4F\{4F81D278-A7FE-47FB-AE20-4AD0A7184385}.wem		\Containers\Default Work Unit\Interaction\SDF_Ui\SDF_UiBack		32008
 	579398280	SDF_PanelRight	.cache\9C\{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Awnser\SDF_PanelRight		92256
+	642822641	SDF_UiSelect	.cache\51\{513ABFE4-1BEF-70E9-EB1D-7CCD3B37C108}.wem		\Containers\Default Work Unit\Interaction\SDF_Ui\SDF_UiSelect		23136
 	808561328	SDF_PanelButton	.cache\04\{04022146-84D1-9BD9-6442-3015E022B9F2}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\SDF_PanelButton		145892
 	828804054	SDF_PanelCellsOFF	.cache\38\{38ED08BB-0803-B664-2338-87295AF732B9}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Cells\SDF_PanelCellsOFF		32352
 

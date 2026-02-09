@@ -125,6 +125,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_UiPress" ID="{5DCC90B8-AC6E-421B-8801-ECAEE683C2DB}">
+							<ChildrenList>
+								<Action Name="" ID="{5A4BC4D4-5DBD-49EC-8CD8-ED2B6AD6D4BA}" ShortID="600093816">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_UiSelect" ID="{AB6FCCD4-3399-44E6-96E9-CE847C5DD182}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_UiBack" ID="{05F2E8EA-4115-4D72-B195-C84DDAEB8B53}">
+							<ChildrenList>
+								<Action Name="" ID="{FFD43A82-8889-4C76-A914-D0F1839382AC}" ShortID="375494179">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_UiBack" ID="{E4B20D60-082D-4E40-8E5C-35E48BC4B6CF}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monster" ID="{52D790FD-16F1-4CEB-9FF9-C21C8587D7B6}" ShortID="997528023">

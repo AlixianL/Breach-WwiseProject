@@ -603,9 +603,10 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
-										<Property Name="OnOffBand1" Type="bool" Value="False"/>
-										<Property Name="OnOffBand2" Type="bool" Value="False"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="20"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="55.54602"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="7387.502"/>
+										<Property Name="GainBand2" Type="Real32" Value="-23.07692"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1103,7 +1104,7 @@
 										<Property Name="Filter2Gain" Type="Real32" Value="9"/>
 										<Property Name="Filter3Freq" Type="Real32" Value="6930"/>
 										<Property Name="HFDamping" Type="Real32" Value="0.5"/>
-										<Property Name="PreDelay" Type="Real32" Value="144"/>
+										<Property Name="PreDelay" Type="Real32" Value="102"/>
 										<Property Name="Quality" Type="int32" Value="4"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-16"/>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
