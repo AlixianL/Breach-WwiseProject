@@ -10,12 +10,50 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{2433CBE4-1B18-4049-A192-D5BA09254F47}",
+    "Hash": "{040E2156-2D2C-314E-2D23-EE1A91CB353A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
-    "Path": "Monster.bnk"
+    "Path": "Monster.bnk",
+    "Media": [
+     {
+      "Id": "208134396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterHurt.wav",
+      "CachePath": "7F/{7FACA9D4-987D-9D73-3BBF-9B8A1CA0584D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1302063987",
+      "Name": "Event_MonsterHurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonsterHurt",
+      "GUID": "{1644A1AD-6509-46CE-B1B2-058B5C124744}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7240816",
+      "DurationMax": "1.7240816",
+      "MediaRefs": [
+       {
+        "Id": "208134396"
+       }
+      ]
+     },
+     {
+      "Id": "3045288717",
+      "Name": "Event_MonterExperience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonterExperience",
+      "GUID": "{71A17FFF-3914-468C-BF2B-67A9941EA1BC}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
    }
   ],
-  "FileHash": "{A5E88FD1-CD7B-C640-0B66-45D2D1861969}"
+  "FileHash": "{DEB97FE9-F225-9355-E9EB-9EEF001C817A}"
  }
 }

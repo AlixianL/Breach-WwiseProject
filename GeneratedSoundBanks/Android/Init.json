@@ -168,6 +168,32 @@
       ]
      },
      {
+      "Id": "1537274156",
+      "Name": "STEP_MonsterExperience",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience",
+      "GUID": "{D04D15DE-1BAD-4064-B7B0-4FE044E4C36D}",
+      "Switches": [
+       {
+        "Id": "145409871",
+        "Name": "ST_FireWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_FireWeapon",
+        "GUID": "{E09BBA13-E815-4379-9197-706B4E793908}"
+       },
+       {
+        "Id": "458056225",
+        "Name": "ST_GlassWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GlassWeapon",
+        "GUID": "{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"
+       },
+       {
+        "Id": "1542943490",
+        "Name": "ST_ElectricWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_ElectricWeapon",
+        "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"
+       }
+      ]
+     },
+     {
       "Id": "2239109505",
       "Name": "STFT_GroundSurface",
       "ObjectPath": "\\Switches\\Default Work Unit\\STFT_GroundSurface",
@@ -687,6 +713,6 @@
     ]
    }
   ],
-  "FileHash": "{39209591-29AF-DE8E-4655-56F4F495EA37}"
+  "FileHash": "{7F72C58C-0CA1-3028-D96B-CFF7728ADB1C}"
  }
 }

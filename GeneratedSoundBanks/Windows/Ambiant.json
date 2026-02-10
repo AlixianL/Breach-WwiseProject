@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{461E1247-1E3E-D867-076D-D28D29BC152E}",
+    "Hash": "{8CB6E561-8C6D-57E1-F0CF-C77B399C3B22}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
@@ -254,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{C35F6E52-F925-E93C-B6C2-B9EBA801B513}"
+  "FileHash": "{8C576FB2-5FC7-DD74-0AFA-E951E3745D93}"
  }
 }

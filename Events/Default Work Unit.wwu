@@ -154,6 +154,20 @@
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Event Name="Event_MonsterHurt" ID="{1644A1AD-6509-46CE-B1B2-058B5C124744}">
+							<ChildrenList>
+								<Action Name="" ID="{7F7465BD-E75E-4738-A83B-174C78C379A6}" ShortID="720431356">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_MonsterHurt" ID="{9069334F-6C30-4B2D-AF1E-196EEEDDE008}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_MonterExperience" ID="{71A17FFF-3914-468C-BF2B-67A9941EA1BC}"/>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2EBBA59A-51C1-4071-81BC-70EBDFC206F7}" ShortID="862442756">
 					<PropertyList>

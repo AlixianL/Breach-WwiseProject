@@ -27,6 +27,13 @@
 						<Switch Name="ST_CellsOFF" ID="{EED1AE39-E918-4D88-974E-EEE4D2B44A1D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="STEP_MonsterExperience" ID="{D04D15DE-1BAD-4064-B7B0-4FE044E4C36D}">
+					<ChildrenList>
+						<Switch Name="ST_FireWeapon" ID="{E09BBA13-E815-4379-9197-706B4E793908}"/>
+						<Switch Name="ST_GlassWeapon" ID="{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"/>
+						<Switch Name="ST_ElectricWeapon" ID="{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

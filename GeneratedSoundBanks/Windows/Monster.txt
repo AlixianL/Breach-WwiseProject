@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1302063987	Event_MonsterHurt			\Default Work Unit\Monster\Event_MonsterHurt	
+	3045288717	Event_MonterExperience			\Default Work Unit\Monster\Event_MonterExperience	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	208134396	SDF_MonsterHurt	.cache\7F\{7FACA9D4-987D-9D73-3BBF-9B8A1CA0584D}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterScream\SDF_MonsterHurt		304224
+
