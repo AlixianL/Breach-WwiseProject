@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2490679296	Event_MainMenu			\Default Work Unit\Music\Event_MainMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	228597391	SDM_MainMenu	.cache\C9\{C906119C-3248-6C4F-986E-7DECD2EB24A2}.wem		\Containers\Default Work Unit\Music\SDM_Menu\SDM_MainMenu\SDM_MainMenu		22591588
+

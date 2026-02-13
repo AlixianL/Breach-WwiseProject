@@ -10,12 +10,39 @@
     "Type": "User",
     "GUID": "{5007AEFF-3834-40D2-B427-D7A62C602561}",
     "Language": "SFX",
-    "Hash": "{24E5C870-ECC9-0C67-2ADD-497979A2E044}",
+    "Hash": "{3869CB27-928F-AA33-266E-25E9EA18A120}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
-    "Path": "Music.bnk"
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "228597391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDM_Menu\\SDM_MainMenu.wav",
+      "CachePath": "C9/{C906119C-3248-6C4F-986E-7DECD2EB24A2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2490679296",
+      "Name": "Event_MainMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_MainMenu",
+      "GUID": "{966E53C3-562B-4881-A041-16DCB3DD3590}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "128.06969",
+      "DurationMax": "128.06969",
+      "MediaRefs": [
+       {
+        "Id": "228597391"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{6AD91F1E-AB88-A588-CBC9-B12BCD4230FD}"
+  "FileHash": "{E7521C59-BF68-17D8-D3A8-0FE258B3CFE6}"
  }
 }

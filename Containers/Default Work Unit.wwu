@@ -1174,8 +1174,8 @@
 																<MusicClip Name="SDM_MainMenu" ID="{36DECE42-0CA8-4079-87B4-916C832B2141}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="128069.682539683"/>
-																		<Property Name="FadeInMode" Type="int16" Value="0"/>
-																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="9582.56504533264"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7251.67084511659"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="SDM_MainMenu" ID="{90A435D3-1F0C-46C4-8B59-DB5BBE55D7AA}"/>
 																</MusicClip>
@@ -1204,7 +1204,7 @@
 							<ChildrenList>
 								<MusicSegment Name="SDM_AmbiantInPod" ID="{9024346E-3DE2-4DA3-A6E0-D92ED4855C7D}" ShortID="87264859">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="127776"/>
+										<Property Name="EndPosition" Type="Real64" Value="141876.837511207"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1250,6 +1250,7 @@
 																		<Property Name="EndTrimOffset" Type="Real64" Value="127776"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="11349.4545821912"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="SDM_AmbiantInPod" ID="{1E7E52D5-BA43-4BFD-AC09-7A38ECEF0DFE}"/>
 																</MusicClip>
@@ -1262,11 +1263,15 @@
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
-											<MusicCue Name="Entry Cue" ID="{82EB38C4-8EAB-4E11-A25B-82C83205E2E8}"/>
+											<MusicCue Name="Entry Cue" ID="{82EB38C4-8EAB-4E11-A25B-82C83205E2E8}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="11349.4545821912"/>
+												</PropertyList>
+											</MusicCue>
 											<MusicCue Name="Exit Cue" ID="{5D27C2D5-C2EE-4444-AB83-9D05B898BF98}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="127776"/>
+													<Property Name="TimeMs" Type="Real64" Value="139125.45458219"/>
 												</PropertyList>
 											</MusicCue>
 										</ObjectList>
