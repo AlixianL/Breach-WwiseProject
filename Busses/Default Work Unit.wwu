@@ -9,6 +9,41 @@
 							<ObjectRef Name="System" ID="{4973DF32-12EC-467C-BAC8-4A58C89D95BB}" WorkUnitID="{3F09CB13-AC0D-446C-8A5A-1E11E6B59401}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{C6E73C03-5D19-4934-A363-EACD761AEF54}" ShortID="196903134">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="GlobalAudioVolume" ID="{93E4BFA7-5A71-436A-B64C-9426155FFF23}" WorkUnitID="{5C26667F-93E6-4D27-BB94-0D5E2CFA6E50}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{786BA866-2301-4573-99C9-D9138AC92430}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

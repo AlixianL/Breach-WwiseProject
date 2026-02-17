@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{36E0285B-D1C2-5263-5DA1-4DCA40D99C8D}",
+    "Hash": "{20DA94A1-876B-C6EC-3C3A-1798CB9A4EC8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -43,6 +43,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "317060256",
+      "Name": "GlobalAudioVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GlobalAudioVolume",
+      "GUID": "{93E4BFA7-5A71-436A-B64C-9426155FFF23}"
+     },
      {
       "Id": "822163944",
       "Name": "SS_Air_RPM",
@@ -713,6 +719,6 @@
     ]
    }
   ],
-  "FileHash": "{7F72C58C-0CA1-3028-D96B-CFF7728ADB1C}"
+  "FileHash": "{883E9267-3A46-6BE5-C0B8-C81802058D8D}"
  }
 }
