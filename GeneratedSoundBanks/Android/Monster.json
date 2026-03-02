@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{040E2156-2D2C-314E-2D23-EE1A91CB353A}",
+    "Hash": "{53876460-74D5-AA8D-9D12-4CF95A3935C2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
     "Path": "Monster.bnk",
@@ -24,6 +24,18 @@
       "CachePath": "7F/{7FACA9D4-987D-9D73-3BBF-9B8A1CA0584D}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1302063987",
@@ -38,7 +50,14 @@
        {
         "Id": "208134396"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
      },
      {
       "Id": "3045288717",
@@ -54,6 +73,6 @@
     ]
    }
   ],
-  "FileHash": "{DEB97FE9-F225-9355-E9EB-9EEF001C817A}"
+  "FileHash": "{145C1859-3E1D-13DE-F5B4-D73C1CDBF35E}"
  }
 }
