@@ -5,9 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Ambiant" ID="{39AF2508-DE64-42C5-AA41-5A4A03CAD537}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Event_Alarme" ID="{867BD458-F652-4188-98A4-DBA17AD0C4EA}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_Experience" ID="{0AC1A0D1-7BAB-445D-BF4A-1C997D57D7FA}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_Camera" ID="{6F383357-8DC6-45B7-8DDA-C5AB47587284}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_Ambiant1" ID="{913A5CCD-0DDB-4648-ABA5-D692C197BACF}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_StopAlarme" ID="{9D74CA57-513B-4763-BAC2-16CFE3CB1757}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_Ambiant2" ID="{34B7C7A3-30AA-481D-A15D-42F9AE074861}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_OpenPodTutorial" ID="{582A6EED-DE40-49EB-9C1F-15D43F906957}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -15,7 +19,7 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{5007AEFF-3834-40D2-B427-D7A62C602561}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Event_MainMenu" ID="{966E53C3-562B-4881-A041-16DCB3DD3590}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SDM_MainMenu" ID="{08CFC4BA-2582-49CC-867B-0DC9B93F7DCB}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

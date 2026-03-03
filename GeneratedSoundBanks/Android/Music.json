@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5007AEFF-3834-40D2-B427-D7A62C602561}",
     "Language": "SFX",
-    "Hash": "{8FAB3C1F-C655-71FD-5CD3-4AEFE752904F}",
+    "Hash": "{A81723E4-64FA-9CDA-9BB5-473166AD0B6A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -26,10 +26,10 @@
     ],
     "Events": [
      {
-      "Id": "2490679296",
-      "Name": "Event_MainMenu",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Event_MainMenu",
-      "GUID": "{966E53C3-562B-4881-A041-16DCB3DD3590}",
+      "Id": "873498574",
+      "Name": "SDM_MainMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\SDM_MainMenu",
+      "GUID": "{08CFC4BA-2582-49CC-867B-0DC9B93F7DCB}",
       "Color": "12",
       "DurationType": "OneShot",
       "DurationMin": "128.06969",
@@ -40,9 +40,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3885818697",
+      "Name": "MainMenuVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MainMenuVolume",
+      "GUID": "{4011ECD4-3FDE-488C-9277-DEBB455CEF44}"
+     }
     ]
    }
   ],
-  "FileHash": "{B3D5CE54-1834-4DB7-20A3-C18A5D49EA45}"
+  "FileHash": "{82CC1DF5-72FE-DE8D-2D19-CC2FC39D02B2}"
  }
 }

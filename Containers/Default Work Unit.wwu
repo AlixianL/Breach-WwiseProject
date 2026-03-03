@@ -290,6 +290,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SDF_OpenPodTutorial" ID="{527E3B22-FE89-444E-BDCF-4D7C752615A7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.63859023670159"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.46214455582521"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.7003860725428"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SDF_PodTutorial\SDF_OpenPodTutorial.wav</AudioFile>
 											<MediaIDList>
@@ -306,6 +312,13 @@
 						<Folder Name="SDF_AmbiantSalle" ID="{CCA5D5E3-F332-4E95-B665-1394CB50526F}" ShortID="590366382">
 							<ChildrenList>
 								<Sound Name="SDF_Ambiant1" ID="{CF757D8D-4351-4EE5-B796-179267B3B2E7}" ShortID="358836458">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -328,6 +341,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SDF_Ambiant2" ID="{381702CA-BE00-47EF-9F7D-D79439905C21}" ShortID="184529073">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -347,6 +367,35 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SDF_Ambiant2" ID="{8D857738-A2DB-43E4-94CD-90408AF78FA3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SDF_AmbiantAlarme" ID="{4F7C55A9-3A00-4572-BED0-B454D9E2EF6B}" ShortID="1029611736">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SDF_AmbiantAlarme" ID="{560AF2BF-BE60-4F0A-AAC3-DD8D14658E08}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.56738092897256"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX\SDF_AmbiantAlarme.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="133788698"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SDF_AmbiantAlarme" ID="{560AF2BF-BE60-4F0A-AAC3-DD8D14658E08}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1227,6 +1276,28 @@
 												<ActiveSource Name="SDF_MonsterExperienceGravity" ID="{5FC1E755-C1CD-40E4-A08D-0D7E6C9FC914}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SDF_MonsterExperienceGunShot" ID="{2B5BFFA8-47BC-4DD2-A763-749CF294AFE0}" ShortID="1023318619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_MonsterExperienceGunShot" ID="{71CB1718-B65E-4ECE-B575-20FDD6179577}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SDF_MonsterExperienceGunShot.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419410812"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_MonsterExperienceGunShot" ID="{71CB1718-B65E-4ECE-B575-20FDD6179577}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -1235,6 +1306,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="SDF_MonsterExperienceUltraSon" ID="{FE3B007A-6475-4251-B7F7-A73927695433}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="SDF_MonsterExperienceGunShot" ID="{2B5BFFA8-47BC-4DD2-A763-749CF294AFE0}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="SDF_MonsterExperienceIce" ID="{BD624AB0-2A77-4126-A244-784DC8D1AEDB}"/>
@@ -1254,6 +1328,12 @@
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
+												<SwitchRef Name="ST_LaserWeapon" ID="{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceLaser" ID="{C40C4F18-20A3-4FA9-8409-25A65C6B7D6C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="ST_FireWeapon" ID="{E09BBA13-E815-4379-9197-706B4E793908}"/>
 												<ItemList>
 													<ItemRef Name="SDF_MonsterExperienceFlame" ID="{1A524BF1-A6A7-4CB8-A2D4-EBF276BF2E67}"/>
@@ -1266,9 +1346,33 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="ST_UltraSonWeapon" ID="{370BBA40-6F0F-4255-AB44-D0ABB922D399}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceUltraSon" ID="{FE3B007A-6475-4251-B7F7-A73927695433}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_GunShotWeapon" ID="{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceGunShot" ID="{2B5BFFA8-47BC-4DD2-A763-749CF294AFE0}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="ST_GlassWeapon" ID="{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"/>
 												<ItemList>
 													<ItemRef Name="SDF_MonsterExperienceIce" ID="{BD624AB0-2A77-4126-A244-784DC8D1AEDB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_AcidWeapon" ID="{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceAcid" ID="{51C69EB3-B6C5-43DA-8C3C-747C25F8BF46}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_GravityWeapon" ID="{23D996F4-8214-4BA7-BB70-C08751766CF7}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceGravity" ID="{F0D2A4CF-0F3C-47C1-A1E1-BC5EDB1424A4}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
@@ -1326,6 +1430,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="SDM_MainMenu" ID="{50AC0ABD-924D-4D9F-B37E-18D7392BFD9F}" ShortID="533727327">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{922A71EF-8734-47CA-A22B-2B30124476EC}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
@@ -1351,6 +1464,39 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<RTPC Name="" ID="{E8EF0EEB-A2BD-465C-93DF-03ED2DB09FC2}" ShortID="909057780">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MainMenuVolume" ID="{4011ECD4-3FDE-488C-9277-DEBB455CEF44}" WorkUnitID="{5C26667F-93E6-4D27-BB94-0D5E2CFA6E50}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{CF9F4956-DDF2-4B27-AB18-1D6E7E7A7E09}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</ObjectList>
 												<ObjectList Name="Sequences">
 													<MusicTrackSequence Name="" ID="{6526ABD6-79DC-4608-97C2-0E3214C1AE05}">
 														<ObjectLists>

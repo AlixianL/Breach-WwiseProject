@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{8CB6E561-8C6D-57E1-F0CF-C77B399C3B22}",
+    "Hash": "{3777DB6A-239E-D230-CF51-2C435084FCFE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
     "Media": [
+     {
+      "Id": "133788698",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_AmbiantAlarme.wav",
+      "CachePath": "F6/{F6AF0E93-F840-7A67-2104-5984E9FEAD85}.wem"
+     },
      {
       "Id": "206607695",
       "Language": "SFX",
@@ -29,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_PodTutorial\\SDF_OpenPodTutorial.wav",
-      "CachePath": "C0/{C019D53C-384C-6ABE-F706-AF3EF59E508D}.wem"
+      "CachePath": "7B/{7B440382-3E5E-062E-43F8-33D98A9C1338}.wem"
      },
      {
       "Id": "248271940",
@@ -62,6 +70,22 @@
       "Location": "Memory",
       "ShortName": "SDF_AmbiantExperience\\SDF_Panel.wav",
       "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
+     },
+     {
+      "Id": "675029894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Ambiant1.wav",
+      "CachePath": "90/{90B715CB-369F-06E4-3BE2-F2971303459B}.wem"
+     },
+     {
+      "Id": "677659704",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Ambiant2.wav",
+      "CachePath": "9D/{9DF6BA3F-6881-B23A-E0BB-F2DBD3229BA9}.wem"
      },
      {
       "Id": "822209333",
@@ -119,6 +143,49 @@
      ]
     },
     "Events": [
+     {
+      "Id": "718443918",
+      "Name": "Event_Alarme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Alarme",
+      "GUID": "{867BD458-F652-4188-98A4-DBA17AD0C4EA}",
+      "Color": "1",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "133788698"
+       }
+      ]
+     },
+     {
+      "Id": "617019463",
+      "Name": "Event_Ambiant1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant1",
+      "GUID": "{913A5CCD-0DDB-4648-ABA5-D692C197BACF}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "86.89",
+      "DurationMax": "86.89",
+      "MediaRefs": [
+       {
+        "Id": "675029894"
+       }
+      ]
+     },
+     {
+      "Id": "617019460",
+      "Name": "Event_Ambiant2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant2",
+      "GUID": "{34B7C7A3-30AA-481D-A15D-42F9AE074861}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "103.93",
+      "DurationMax": "103.93",
+      "MediaRefs": [
+       {
+        "Id": "677659704"
+       }
+      ]
+     },
      {
       "Id": "3321259527",
       "Name": "Event_Camera",
@@ -221,13 +288,24 @@
       "GUID": "{582A6EED-DE40-49EB-9C1F-15D43F906957}",
       "Color": "1",
       "DurationType": "OneShot",
-      "DurationMin": "16.27136",
-      "DurationMax": "16.27136",
+      "DurationMin": "13.570974",
+      "DurationMax": "13.570974",
       "MediaRefs": [
        {
         "Id": "243775220"
        }
       ]
+     },
+     {
+      "Id": "3674700006",
+      "Name": "Event_StopAlarme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Event_StopAlarme",
+      "GUID": "{9D74CA57-513B-4763-BAC2-16CFE3CB1757}",
+      "Color": "1",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -254,6 +332,6 @@
     ]
    }
   ],
-  "FileHash": "{8C576FB2-5FC7-DD74-0AFA-E951E3745D93}"
+  "FileHash": "{AE42F881-0C02-7D0A-4BF4-BB91BA42A5AB}"
  }
 }

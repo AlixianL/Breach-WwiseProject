@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8772A334-3F70-C3BD-61B2-5D891169AA5F}",
+    "Hash": "{D214C2B0-27EB-AAA1-18D7-94AE16026073}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -104,6 +104,12 @@
       "GUID": "{E3B7811A-7B2F-490F-B44F-5FE51B468041}"
      },
      {
+      "Id": "3885818697",
+      "Name": "MainMenuVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MainMenuVolume",
+      "GUID": "{4011ECD4-3FDE-488C-9277-DEBB455CEF44}"
+     },
+     {
       "Id": "4160247818",
       "Name": "SS_Air_Turbulence",
       "ObjectPath": "\\Game Parameters\\Factory Soundseed Air Game Syncs\\SS_Air_Turbulence",
@@ -192,10 +198,40 @@
         "GUID": "{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"
        },
        {
+        "Id": "1068808435",
+        "Name": "ST_GravityWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GravityWeapon",
+        "GUID": "{23D996F4-8214-4BA7-BB70-C08751766CF7}"
+       },
+       {
         "Id": "1542943490",
         "Name": "ST_ElectricWeapon",
         "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_ElectricWeapon",
         "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"
+       },
+       {
+        "Id": "2255249304",
+        "Name": "ST_LaserWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_LaserWeapon",
+        "GUID": "{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"
+       },
+       {
+        "Id": "2867355185",
+        "Name": "ST_UltraSonWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_UltraSonWeapon",
+        "GUID": "{370BBA40-6F0F-4255-AB44-D0ABB922D399}"
+       },
+       {
+        "Id": "2960899283",
+        "Name": "ST_GunShotWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GunShotWeapon",
+        "GUID": "{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"
+       },
+       {
+        "Id": "3478435148",
+        "Name": "ST_AcidWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_AcidWeapon",
+        "GUID": "{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}"
        }
       ]
      },
@@ -719,6 +755,6 @@
     ]
    }
   ],
-  "FileHash": "{8277C72C-4115-D438-F776-E6F278FAD9B2}"
+  "FileHash": "{B5682B5C-5004-27F2-C159-8A57AD63CE64}"
  }
 }

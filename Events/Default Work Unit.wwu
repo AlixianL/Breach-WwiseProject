@@ -53,6 +53,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_Alarme" ID="{867BD458-F652-4188-98A4-DBA17AD0C4EA}">
+							<ChildrenList>
+								<Action Name="" ID="{799E2BE8-1610-4561-ADA7-77A4E692C75E}" ShortID="244296257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_AmbiantAlarme" ID="{4F7C55A9-3A00-4572-BED0-B454D9E2EF6B}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Ambiant1" ID="{913A5CCD-0DDB-4648-ABA5-D692C197BACF}">
+							<ChildrenList>
+								<Action Name="" ID="{92703E69-4964-4602-BA34-1BEF3BD3F8CD}" ShortID="855346988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_Ambiant1" ID="{CF757D8D-4351-4EE5-B796-179267B3B2E7}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_Ambiant2" ID="{34B7C7A3-30AA-481D-A15D-42F9AE074861}">
+							<ChildrenList>
+								<Action Name="" ID="{537DD4B6-6ABC-4973-86C6-2E2648BA6F74}" ShortID="302198963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_Ambiant2" ID="{381702CA-BE00-47EF-9F7D-D79439905C21}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{35A59888-0B52-4E1D-84B9-21333388778D}" ShortID="922483013">
@@ -175,9 +208,9 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Event_MainMenu" ID="{966E53C3-562B-4881-A041-16DCB3DD3590}">
+						<Event Name="SDM_MainMenu" ID="{08CFC4BA-2582-49CC-867B-0DC9B93F7DCB}">
 							<ChildrenList>
-								<Action Name="" ID="{72E8A900-207D-40E6-8C0D-1C6CB90867BE}" ShortID="860553372">
+								<Action Name="" ID="{AF0FBD22-1207-4340-9F78-F9101CBCFBB1}" ShortID="733851717">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SDM_MainMenu" ID="{D49B40CB-C7EA-409A-9119-058C182ED081}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
@@ -188,6 +221,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_StopAlarme" ID="{9D74CA57-513B-4763-BAC2-16CFE3CB1757}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2D00EA71-259D-4F22-B18C-4B245BA6B9A4}" ShortID="1059478952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SDF_AmbiantAlarme" ID="{4F7C55A9-3A00-4572-BED0-B454D9E2EF6B}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

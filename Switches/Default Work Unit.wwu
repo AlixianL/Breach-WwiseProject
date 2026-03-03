@@ -32,6 +32,11 @@
 						<Switch Name="ST_FireWeapon" ID="{E09BBA13-E815-4379-9197-706B4E793908}"/>
 						<Switch Name="ST_GlassWeapon" ID="{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"/>
 						<Switch Name="ST_ElectricWeapon" ID="{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"/>
+						<Switch Name="ST_AcidWeapon" ID="{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}"/>
+						<Switch Name="ST_UltraSonWeapon" ID="{370BBA40-6F0F-4255-AB44-D0ABB922D399}"/>
+						<Switch Name="ST_LaserWeapon" ID="{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"/>
+						<Switch Name="ST_GravityWeapon" ID="{23D996F4-8214-4BA7-BB70-C08751766CF7}"/>
+						<Switch Name="ST_GunShotWeapon" ID="{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
