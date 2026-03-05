@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{53876460-74D5-AA8D-9D12-4CF95A3935C2}",
+    "Hash": "{208C6A38-3F80-BCC7-8BF3-06D59197A638}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
     "Path": "Monster.bnk",
     "Media": [
+     {
+      "Id": "41075304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterExperienceGravity.wav",
+      "CachePath": "EC/{EC702864-8971-F290-AE76-CF65EE8E2923}.wem"
+     },
+     {
+      "Id": "193241897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterExperienceLaser.wav",
+      "CachePath": "C5/{C5876672-C11D-409C-FB65-BE36869D3DD6}.wem"
+     },
      {
       "Id": "208134396",
       "Language": "SFX",
@@ -22,6 +38,54 @@
       "Location": "Memory",
       "ShortName": "SDF_MonsterHurt.wav",
       "CachePath": "7F/{7FACA9D4-987D-9D73-3BBF-9B8A1CA0584D}.wem"
+     },
+     {
+      "Id": "335737149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_MonsterExperienceFlame.wav",
+      "CachePath": "73/{73D80596-F368-D697-0718-F205E2754E71}.wem"
+     },
+     {
+      "Id": "419410812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_MonsterExperienceGunShot.wav",
+      "CachePath": "53/{53C06B44-E0B3-B92B-DB68-0416C90BB6C4}.wem"
+     },
+     {
+      "Id": "423467017",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_MonsterExperienceIce.wav",
+      "CachePath": "A3/{A3454739-15B2-4AE1-0052-FC59AE8FCB22}.wem"
+     },
+     {
+      "Id": "961638347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterExperienceUltraSon.wav",
+      "CachePath": "6C/{6CFE3A5F-58FC-1633-CF02-D2803BC2A8AD}.wem"
+     },
+     {
+      "Id": "1012138208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_MonsterExperienceElectricity.wav",
+      "CachePath": "D7/{D707BA8E-F738-E54D-9BE8-E13B9E1D60A4}.wem"
+     },
+     {
+      "Id": "1044149136",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterExperienceAcid.wav",
+      "CachePath": "44/{44D26C33-4606-03D9-1871-3F288AE4430E}.wem"
      }
     ],
     "Plugins": {
@@ -37,6 +101,123 @@
      ]
     },
     "Events": [
+     {
+      "Id": "3683101660",
+      "Name": "Event_MonsterExperience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonsterExperience",
+      "GUID": "{10170814-6B29-4F2B-9284-1968A05C4FEC}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8419728",
+      "DurationMax": "9.88",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "2255249304",
+         "GUID": "{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "193241897"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "145409871",
+         "GUID": "{E09BBA13-E815-4379-9197-706B4E793908}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "335737149"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "1542943490",
+         "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1012138208"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "2867355185",
+         "GUID": "{370BBA40-6F0F-4255-AB44-D0ABB922D399}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "961638347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "2960899283",
+         "GUID": "{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "419410812"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "458056225",
+         "GUID": "{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "423467017"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "3478435148",
+         "GUID": "{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1044149136"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
+         "Id": "1068808435",
+         "GUID": "{23D996F4-8214-4BA7-BB70-C08751766CF7}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "41075304"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "1302063987",
       "Name": "Event_MonsterHurt",
@@ -58,21 +239,68 @@
         }
        ]
       }
-     },
+     }
+    ],
+    "SwitchGroups": [
      {
-      "Id": "3045288717",
-      "Name": "Event_MonterExperience",
-      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonterExperience",
-      "GUID": "{71A17FFF-3914-468C-BF2B-67A9941EA1BC}",
-      "Color": "19",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "Id": "1537274156",
+      "Name": "STEP_MonsterExperience",
+      "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience",
+      "GUID": "{D04D15DE-1BAD-4064-B7B0-4FE044E4C36D}",
+      "Switches": [
+       {
+        "Id": "145409871",
+        "Name": "ST_FireWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_FireWeapon",
+        "GUID": "{E09BBA13-E815-4379-9197-706B4E793908}"
+       },
+       {
+        "Id": "458056225",
+        "Name": "ST_GlassWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GlassWeapon",
+        "GUID": "{DD80AC7D-06B8-42AF-9C46-870CE9B64A52}"
+       },
+       {
+        "Id": "1068808435",
+        "Name": "ST_GravityWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GravityWeapon",
+        "GUID": "{23D996F4-8214-4BA7-BB70-C08751766CF7}"
+       },
+       {
+        "Id": "1542943490",
+        "Name": "ST_ElectricWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_ElectricWeapon",
+        "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"
+       },
+       {
+        "Id": "2255249304",
+        "Name": "ST_LaserWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_LaserWeapon",
+        "GUID": "{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"
+       },
+       {
+        "Id": "2867355185",
+        "Name": "ST_UltraSonWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_UltraSonWeapon",
+        "GUID": "{370BBA40-6F0F-4255-AB44-D0ABB922D399}"
+       },
+       {
+        "Id": "2960899283",
+        "Name": "ST_GunShotWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_GunShotWeapon",
+        "GUID": "{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"
+       },
+       {
+        "Id": "3478435148",
+        "Name": "ST_AcidWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_AcidWeapon",
+        "GUID": "{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{86E5A15F-D004-20B2-0671-73D30C7FF4D5}"
+  "FileHash": "{BC659B58-4F5C-D425-8BC7-92AF73649B05}"
  }
 }

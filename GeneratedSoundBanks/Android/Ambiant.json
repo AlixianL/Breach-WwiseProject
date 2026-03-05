@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{3777DB6A-239E-D230-CF51-2C435084FCFE}",
+    "Hash": "{A988722D-9051-C409-B7BA-974FE757FFE3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX\\SDF_AmbiantAlarme.wav",
-      "CachePath": "F6/{F6AF0E93-F840-7A67-2104-5984E9FEAD85}.wem"
+      "CachePath": "25/{259A2C6E-2E6F-273F-0CE8-3C5851626FB6}.wem"
      },
      {
       "Id": "206607695",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_PodTutorial\\SDF_OpenPodTutorial.wav",
-      "CachePath": "7B/{7B440382-3E5E-062E-43F8-33D98A9C1338}.wem"
+      "CachePath": "19/{1901D7F1-8216-BA8E-598B-64D8BC8A4434}.wem"
      },
      {
       "Id": "248271940",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_DoorTutorial\\SDF_OpenDoorTutorial.wav",
-      "CachePath": "FC/{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem"
+      "CachePath": "56/{568B0249-308B-6589-AFBF-AB84A593A9DD}.wem"
      },
      {
       "Id": "554611734",
@@ -209,7 +209,7 @@
       "Color": "1",
       "DurationType": "OneShot",
       "DurationMin": "2",
-      "DurationMax": "3",
+      "DurationMax": "2.5250823",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -332,6 +332,6 @@
     ]
    }
   ],
-  "FileHash": "{E695A9D6-34FE-F9E7-574E-8EA338554825}"
+  "FileHash": "{B313828D-C1AC-2204-313A-016A66BFA526}"
  }
 }

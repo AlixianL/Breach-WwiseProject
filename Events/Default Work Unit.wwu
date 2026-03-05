@@ -199,7 +199,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Event_MonterExperience" ID="{71A17FFF-3914-468C-BF2B-67A9941EA1BC}"/>
+						<Event Name="Event_MonsterExperience" ID="{10170814-6B29-4F2B-9284-1968A05C4FEC}">
+							<ChildrenList>
+								<Action Name="" ID="{C08492F8-4B72-46AD-A1A4-AB1E8B82201E}" ShortID="927567292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="STCT_MonsterExperience" ID="{9682F54B-007E-4BFF-BDF0-E40FE696810A}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2EBBA59A-51C1-4071-81BC-70EBDFC206F7}" ShortID="862442756">

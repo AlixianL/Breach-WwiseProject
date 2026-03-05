@@ -22,12 +22,12 @@ Effect plug-ins	ID	Name	Type				Notes
 	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	133788698	SDF_AmbiantAlarme	.cache\F6\{F6AF0E93-F840-7A67-2104-5984E9FEAD85}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_AmbiantAlarme		452980
+	133788698	SDF_AmbiantAlarme	.cache\25\{259A2C6E-2E6F-273F-0CE8-3C5851626FB6}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_AmbiantAlarme		452980
 	206607695	SDF_JailDoor	.cache\B3\{B3B38680-8FEA-466B-C67B-97C1BB849208}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_JailDoor		453984
-	243775220	SDF_OpenPodTutorial	.cache\7B\{7B440382-3E5E-062E-43F8-33D98A9C1338}.wem		\Containers\Default Work Unit\Ambiant\SDF_PodTutorial\SDF_OpenPodTutorial		2394064
+	243775220	SDF_OpenPodTutorial	.cache\19\{1901D7F1-8216-BA8E-598B-64D8BC8A4434}.wem		\Containers\Default Work Unit\Ambiant\SDF_PodTutorial\SDF_OpenPodTutorial		2394064
 	248271940	SDF_CameraMoving	.cache\FD\{FDBD9085-8784-10A1-AF96-8FB3A20C7049}.wem		\Containers\Default Work Unit\Ambiant\SDF_Camera\SDF_CameraMoving		335964
 	330859100	SDF_ClosedDoorTutorial	.cache\40\{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_ClosedDoorTutorial		352896
-	348565895	SDF_OpenDoorTutorial	.cache\FC\{FC7DAD30-7119-F820-0B5F-0991077D6705}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_OpenDoorTutorial		529296
+	348565895	SDF_OpenDoorTutorial	.cache\56\{568B0249-308B-6589-AFBF-AB84A593A9DD}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\DoorSwitch\SDF_OpenDoorTutorial		445520
 	554611734	SDF_Panel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\Experience\SDF_Panel		136032
 	675029894	SDF_Ambiant1	.cache\90\{90B715CB-369F-06E4-3BE2-F2971303459B}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant1		16682976
 	677659704	SDF_Ambiant2	.cache\9D\{9DF6BA3F-6881-B23A-E0BB-F2DBD3229BA9}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant2		19954656
