@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{208C6A38-3F80-BCC7-8BF3-06D59197A638}",
+    "Hash": "{591D86E1-2A58-ED48-CC53-6A173CAEA9AA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
     "Path": "Monster.bnk",
@@ -40,6 +40,14 @@
       "CachePath": "7F/{7FACA9D4-987D-9D73-3BBF-9B8A1CA0584D}.wem"
      },
      {
+      "Id": "234776357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterPunch3.wav",
+      "CachePath": "C7/{C7D4AE28-29AE-13DE-97C6-2E724917B2E8}.wem"
+     },
+     {
       "Id": "335737149",
       "Language": "SFX",
       "Streaming": "false",
@@ -62,6 +70,22 @@
       "Location": "Memory",
       "ShortName": "SFX\\SDF_MonsterExperienceIce.wav",
       "CachePath": "A3/{A3454739-15B2-4AE1-0052-FC59AE8FCB22}.wem"
+     },
+     {
+      "Id": "490473288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterPunch1.wav",
+      "CachePath": "6E/{6E07006A-54DE-CC2D-F5A7-92E83440FEE4}.wem"
+     },
+     {
+      "Id": "838334762",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterPunch2.wav",
+      "CachePath": "E8/{E8C7D96B-AD5B-B2A7-F217-9B13480DB291}.wem"
      },
      {
       "Id": "961638347",
@@ -194,8 +218,7 @@
          "GroupType": "Switch",
          "GroupId": "1537274156",
          "Id": "3478435148",
-         "GUID": "{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}",
-         "Default": "true"
+         "GUID": "{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}"
         },
         "MediaRefs": [
          {
@@ -239,6 +262,27 @@
         }
        ]
       }
+     },
+     {
+      "Id": "2579464688",
+      "Name": "Event_MonsterPunch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonsterPunch",
+      "GUID": "{A2116719-FFE2-4CB0-A3AF-788C45DCC4E0}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.58",
+      "DurationMax": "1.59",
+      "MediaRefs": [
+       {
+        "Id": "234776357"
+       },
+       {
+        "Id": "490473288"
+       },
+       {
+        "Id": "838334762"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -301,6 +345,6 @@
     ]
    }
   ],
-  "FileHash": "{C41BB832-B482-9018-1BEB-62E9C09E3534}"
+  "FileHash": "{FD4254D1-8F64-54D5-6F4A-28FA1710DDFA}"
  }
 }

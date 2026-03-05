@@ -339,6 +339,7 @@
 							<ChildrenList>
 								<Sound Name="SDF_Ambiant1" ID="{CF757D8D-4351-4EE5-B796-179267B3B2E7}" ShortID="358836458">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-30</Value>
@@ -368,6 +369,7 @@
 								</Sound>
 								<Sound Name="SDF_Ambiant2" ID="{381702CA-BE00-47EF-9F7D-D79439905C21}" ShortID="184529073">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-25</Value>
@@ -442,6 +444,13 @@
 						<Folder Name="SDF_BreathPodCharacter" ID="{1EACA146-DA8E-4BE4-8D13-1ADA68A3E140}" ShortID="78827361">
 							<ChildrenList>
 								<Sound Name="SDF_BreathPodCharacter" ID="{9B55D072-1A7F-4898-B43D-2F503C73C018}" ShortID="957980848">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -693,6 +702,28 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<Sound Name="SDF_ClothCharacter" ID="{14891F8C-F9FA-4E91-B614-48BDD0902D03}" ShortID="991618917">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}">
+											<Language>SFX</Language>
+											<AudioFile>SDF_ClothCharacter.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123798987"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -1183,9 +1214,6 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
 										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="ST_AcidWeapon" ID="{C4AAEBCA-CC27-4F0F-986B-0DACBB7A37AE}" WorkUnitID="{6722A474-AC95-4E2B-8386-FDB59CDB7089}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
 										</Reference>
@@ -1195,13 +1223,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="SDF_MonsterExperienceFlame" ID="{1A524BF1-A6A7-4CB8-A2D4-EBF276BF2E67}" ShortID="109092129">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1224,13 +1245,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceIce" ID="{BD624AB0-2A77-4126-A244-784DC8D1AEDB}" ShortID="777827028">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1253,13 +1267,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceElectricity" ID="{723203F2-D48B-4D76-8E56-F442B0EB3D46}" ShortID="578632462">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1282,13 +1289,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceAcid" ID="{51C69EB3-B6C5-43DA-8C3C-747C25F8BF46}" ShortID="163447878">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-14</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1333,13 +1333,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceLaser" ID="{C40C4F18-20A3-4FA9-8409-25A65C6B7D6C}" ShortID="110849380">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1362,13 +1355,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceGravity" ID="{F0D2A4CF-0F3C-47C1-A1E1-BC5EDB1424A4}" ShortID="355526954">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1391,13 +1377,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceGunShot" ID="{2B5BFFA8-47BC-4DD2-A763-749CF294AFE0}" ShortID="1023318619">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1503,7 +1482,7 @@
 						</Folder>
 						<Folder Name="SDF_MonsterEscape" ID="{0C0640C4-D057-4881-A4D3-3BE0CD58F542}" ShortID="534516111">
 							<ChildrenList>
-								<Sound Name="SDF_MonsterEscapeWindow" ID="{5CA961BD-A050-4FB7-89F0-31F6F4A0C51A}" ShortID="598210764">
+								<RandomSequenceContainer Name="RDCT_MonsterPunch" ID="{A4998EBB-9CFE-4C84-A8DF-F92A59E11FFC}" ShortID="598949166">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1513,18 +1492,95 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SDF_MonsterEscapeWindow" ID="{62D8011B-563D-4BF1-82F9-F80CD2D4DE66}">
-											<Language>SFX</Language>
-											<AudioFile>SDF_MonsterEscapeWindow.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="480343868"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="SDF_MonsterPunch1" ID="{EA566D87-1BCA-4390-BBE1-30556F6AF58F}" ShortID="42806261">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_MonsterPunch1" ID="{708CB884-D245-42EB-965F-12317541BC7D}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_MonsterPunch1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="490473288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_MonsterPunch1" ID="{708CB884-D245-42EB-965F-12317541BC7D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SDF_MonsterPunch3" ID="{6FC59967-D233-4DDA-9499-1E21F0819C0E}" ShortID="938864880">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_MonsterPunch3" ID="{9C8A6E58-75F4-48E5-B8E8-8F98918ED5A1}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_MonsterPunch3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="234776357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_MonsterPunch3" ID="{9C8A6E58-75F4-48E5-B8E8-8F98918ED5A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SDF_MonsterPunch2" ID="{DFDED5E7-3CEA-495A-AB71-7E8D6B17243E}" ShortID="920715882">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_MonsterPunch2" ID="{871E838F-6B9A-41F2-9427-15E81E4A0F5E}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_MonsterPunch2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="838334762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_MonsterPunch2" ID="{871E838F-6B9A-41F2-9427-15E81E4A0F5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SDF_MonsterEscapeWindow" ID="{62D8011B-563D-4BF1-82F9-F80CD2D4DE66}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

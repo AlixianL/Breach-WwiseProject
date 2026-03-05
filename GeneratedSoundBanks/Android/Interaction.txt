@@ -18,7 +18,7 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	53046816	SDF_PanelError	.cache\83\{83C1E425-3ED4-81D3-359B-26B96881CB21}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Awnser\SDF_PanelError		175200
-	203856530	SDF_PanelChargingAwnser	.cache\F3\{F364BE65-8EB0-6664-B183-09FD2699D6FE}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\SDF_PanelChargingAwnser		493884
+	203856530	SDF_PanelChargingAwnser	.cache\0D\{0D833C80-AC74-9FCC-D94F-C8B9BB9D4340}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\SDF_PanelChargingAwnser		493884
 	557688104	SDF_PanelCellsON	.cache\54\{5412FDBC-4130-F81E-F3DF-3959A6F1EC39}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Cells\SDF_PanelCellsON		36960
 	568215691	SDF_UiBack	.cache\4F\{4F81D278-A7FE-47FB-AE20-4AD0A7184385}.wem		\Containers\Default Work Unit\Interaction\SDF_Ui\SDF_UiBack		32008
 	579398280	SDF_PanelRight	.cache\9C\{9CF27C05-135A-E864-F189-55DB8236F6F3}.wem		\Containers\Default Work Unit\Interaction\SDF_Panel\CTPN_Awnser\SDF_PanelRight		92256

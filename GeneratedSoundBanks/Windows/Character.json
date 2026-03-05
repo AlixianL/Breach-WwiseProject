@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{78A2DA09-43A0-41F7-A9FA-E0168D1542B6}",
     "Language": "SFX",
-    "Hash": "{FC4EF06C-9FB6-1C1A-BE45-402A498505EB}",
+    "Hash": "{F2086756-4360-652E-6941-9B788C515F93}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -24,12 +24,28 @@
       "CachePath": "1E/{1EDC5539-80AC-AAF3-4640-04424D4D465E}.wem"
      },
      {
+      "Id": "59308625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_BreathPodCharacter\\SDF_BreathPodCharacter.wav",
+      "CachePath": "CD/{CD5225C6-513C-0860-1E39-BEE472208D42}.wem"
+     },
+     {
       "Id": "88049520",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_FootStepsCharacter\\SDF_FootStepsBloodCharacter\\SDF_FootStepsBloodCharacter_1.wav",
       "CachePath": "CF/{CF90F071-ACF3-4136-D07E-ED187A671D1C}.wem"
+     },
+     {
+      "Id": "123798987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_ClothCharacter.wav",
+      "CachePath": "1A/{1A40549C-D363-8025-251A-5917AADCFDA3}.wem"
      },
      {
       "Id": "446311049",
@@ -73,6 +89,36 @@
      }
     ],
     "Events": [
+     {
+      "Id": "750230481",
+      "Name": "Event_CharacterBreath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Event_CharacterBreath",
+      "GUID": "{38B07688-A75C-49BF-A18B-14B78ACA0584}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "8.437234",
+      "DurationMax": "8.437234",
+      "MediaRefs": [
+       {
+        "Id": "59308625"
+       }
+      ]
+     },
+     {
+      "Id": "2495759341",
+      "Name": "Event_CharacterCloth",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Event_CharacterCloth",
+      "GUID": "{339DFB25-2258-412F-A999-508240E5A3D3}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.97",
+      "DurationMax": "1.97",
+      "MediaRefs": [
+       {
+        "Id": "123798987"
+       }
+      ]
+     },
      {
       "Id": "2364962341",
       "Name": "Event_CharacterEmotions",
@@ -163,6 +209,6 @@
     ]
    }
   ],
-  "FileHash": "{50A9ECBB-5BED-610A-A335-7326BE861872}"
+  "FileHash": "{CD5A9514-C203-F121-BF08-7CFE10CE3F1A}"
  }
 }

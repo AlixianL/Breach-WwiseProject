@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{46C3FE86-43F2-452E-97C8-A5092C52A721}",
     "Language": "SFX",
-    "Hash": "{5107EBC6-03EB-216D-F078-90998B10E6B0}",
+    "Hash": "{6381F71F-5933-ED71-7737-99C88E041074}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Interaction",
     "ShortName": "Interaction",
     "Path": "Interaction.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_Panel\\SDF_PanelChargingAwnser.wav",
-      "CachePath": "F3/{F364BE65-8EB0-6664-B183-09FD2699D6FE}.wem"
+      "CachePath": "0D/{0D833C80-AC74-9FCC-D94F-C8B9BB9D4340}.wem"
      },
      {
       "Id": "557688104",
@@ -262,6 +262,6 @@
     ]
    }
   ],
-  "FileHash": "{85F67F6A-89E3-CBF5-981A-4D1B47E91CAB}"
+  "FileHash": "{895A6647-6525-701C-07B2-77D98CACF3E9}"
  }
 }

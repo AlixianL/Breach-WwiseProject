@@ -106,6 +106,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_CharacterCloth" ID="{339DFB25-2258-412F-A999-508240E5A3D3}">
+							<ChildrenList>
+								<Action Name="" ID="{274B649F-F9E2-4630-AA00-6ED5B3B4E6AF}" ShortID="893102488">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_ClothCharacter" ID="{14891F8C-F9FA-4E91-B614-48BDD0902D03}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_CharacterBreath" ID="{38B07688-A75C-49BF-A18B-14B78ACA0584}">
+							<ChildrenList>
+								<Action Name="" ID="{13F0C1A9-367D-4932-A83F-5DABB433F28B}" ShortID="821479164">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_BreathPodCharacter" ID="{9B55D072-1A7F-4898-B43D-2F503C73C018}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interaction" ID="{9E933D3F-AAF4-4AC4-94B3-DC334AE8767E}" ShortID="698855928">
@@ -205,6 +227,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="STCT_MonsterExperience" ID="{9682F54B-007E-4BFF-BDF0-E40FE696810A}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Event_MonsterPunch" ID="{A2116719-FFE2-4CB0-A3AF-788C45DCC4E0}">
+							<ChildrenList>
+								<Action Name="" ID="{DD275B2E-C57D-462F-A2B4-EBEF63859756}" ShortID="398924941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RDCT_MonsterPunch" ID="{A4998EBB-9CFE-4C84-A8DF-F92A59E11FFC}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

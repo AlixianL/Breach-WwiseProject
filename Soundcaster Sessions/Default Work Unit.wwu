@@ -10,6 +10,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Event_MonsterExperience" ID="{10170814-6B29-4F2B-9284-1968A05C4FEC}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}"/>
 							<Position X="2" Y="1"/>
 						</Module>

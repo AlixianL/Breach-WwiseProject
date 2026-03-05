@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{A988722D-9051-C409-B7BA-974FE757FFE3}",
+    "Hash": "{0A2D3B08-BEFD-76DE-54BE-91FD4E92ED61}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_DoorTutorial\\SDF_OpenDoorTutorial.wav",
-      "CachePath": "56/{568B0249-308B-6589-AFBF-AB84A593A9DD}.wem"
+      "CachePath": "4A/{4A5D48CA-72A5-C011-B184-7F7C34DFED4D}.wem"
      },
      {
       "Id": "554611734",
@@ -332,6 +332,6 @@
     ]
    }
   ],
-  "FileHash": "{B313828D-C1AC-2204-313A-016A66BFA526}"
+  "FileHash": "{29465973-77CB-0989-2D34-17801D8E55A3}"
  }
 }
