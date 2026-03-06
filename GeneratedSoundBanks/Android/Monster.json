@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{591D86E1-2A58-ED48-CC53-6A173CAEA9AA}",
+    "Hash": "{36C024D7-DC6B-1FBE-D1EE-A42BF38F31B7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
     "Path": "Monster.bnk",
@@ -166,7 +166,8 @@
          "GroupType": "Switch",
          "GroupId": "1537274156",
          "Id": "1542943490",
-         "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}"
+         "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -345,6 +346,6 @@
     ]
    }
   ],
-  "FileHash": "{FD4254D1-8F64-54D5-6F4A-28FA1710DDFA}"
+  "FileHash": "{6234905B-F190-E42D-12BB-7650E723714F}"
  }
 }
