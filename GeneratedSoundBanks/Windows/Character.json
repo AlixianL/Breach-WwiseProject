@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{78A2DA09-43A0-41F7-A9FA-E0168D1542B6}",
     "Language": "SFX",
-    "Hash": "{F2086756-4360-652E-6941-9B788C515F93}",
+    "Hash": "{2C4E2AED-2DC6-BE00-AE2B-F874E5DF38EB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -209,6 +209,6 @@
     ]
    }
   ],
-  "FileHash": "{CD5A9514-C203-F121-BF08-7CFE10CE3F1A}"
+  "FileHash": "{DBAA33FB-B638-459C-6221-C0667F1DFD2A}"
  }
 }

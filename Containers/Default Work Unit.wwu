@@ -11,7 +11,7 @@
 					<ChildrenList>
 						<Folder Name="SDF_AmbiantExperience" ID="{EDDA38F3-DE98-44CF-934A-0C419CE87E16}" ShortID="973879423">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Experience" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" ShortID="226243782">
+								<RandomSequenceContainer Name="RDCT_Experience" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" ShortID="226243782">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
@@ -199,7 +199,7 @@
 						</Folder>
 						<Folder Name="SDF_DoorTutorial" ID="{4FDB3439-BEB1-45BC-B57A-92047E30ACF7}" ShortID="447556428">
 							<ChildrenList>
-								<SwitchContainer Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" ShortID="315250068">
+								<SwitchContainer Name="CT_DoorTuto" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" ShortID="315250068">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -676,9 +676,34 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="SDF_ClothCharacter" ID="{14891F8C-F9FA-4E91-B614-48BDD0902D03}" ShortID="991618917">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}">
+													<Language>SFX</Language>
+													<AudioFile>SDF_ClothCharacter.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123798987"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="SDF_ClothCharacter" ID="{14891F8C-F9FA-4E91-B614-48BDD0902D03}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="RDCT_CharacterConcreteFootSteps" ID="{D4EC3FB1-7526-48E3-AC77-029751C65904}"/>
 											</GroupingBehavior>
@@ -702,28 +727,6 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
-								<Sound Name="SDF_ClothCharacter" ID="{14891F8C-F9FA-4E91-B614-48BDD0902D03}" ShortID="991618917">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}">
-											<Language>SFX</Language>
-											<AudioFile>SDF_ClothCharacter.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="123798987"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SDF_ClothCharacter" ID="{024E237F-51A5-4B6E-BB7D-43723B55E943}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

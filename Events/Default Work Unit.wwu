@@ -14,7 +14,7 @@
 								<Action Name="" ID="{01EBAFC0-05C0-4CCB-8DA0-D068AAF063AF}" ShortID="357169585">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Experience" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+											<ObjectRef Name="RDCT_Experience" ID="{0BE6A2A9-FC98-4C32-84F3-8C79022DF1C6}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -36,7 +36,7 @@
 								<Action Name="" ID="{47612AE4-355C-404F-A54A-5F3E73800841}" ShortID="291436335">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="DoorSwitch" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+											<ObjectRef Name="CT_DoorTuto" ID="{E8353FE0-88AA-4B2E-B4A6-20C6AA511551}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
