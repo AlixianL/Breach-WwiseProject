@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1483169283",
+    "Type": "User",
+    "GUID": "{FD611B3A-789A-44F0-BCB3-D3FD0B4E9B6F}",
+    "Language": "SFX",
+    "Hash": "{1BC2024D-3103-271E-C840-4A475021E74D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\LvlAmbiant",
+    "ShortName": "LvlAmbiant",
+    "Path": "LvlAmbiant.bnk",
+    "Media": [
+     {
+      "Id": "675029894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Ambiant1.wav",
+      "CachePath": "11/{11B4E43A-E15D-CC5E-9F62-055CF3E1DC02}.wem"
+     },
+     {
+      "Id": "677659704",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_Ambiant2.wav",
+      "CachePath": "D6/{D6E79E9A-105F-277F-DAF2-106D5B239AEC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "617019463",
+      "Name": "Event_Ambiant1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant1",
+      "GUID": "{913A5CCD-0DDB-4648-ABA5-D692C197BACF}",
+      "Color": "1",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "675029894"
+       }
+      ]
+     },
+     {
+      "Id": "617019460",
+      "Name": "Event_Ambiant2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant2",
+      "GUID": "{34B7C7A3-30AA-481D-A15D-42F9AE074861}",
+      "Color": "1",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "677659704"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DE54DC31-0BD6-8CF1-B3C5-65AADBCFD152}"
+ }
+}

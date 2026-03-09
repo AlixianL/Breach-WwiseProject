@@ -1,12 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	617019460	Event_Ambiant2			\Default Work Unit\Ambiant\Event_Ambiant2	
-	617019463	Event_Ambiant1			\Default Work Unit\Ambiant\Event_Ambiant1	
 	718443918	Event_Alarme			\Default Work Unit\Ambiant\Event_Alarme	
 	1369403161	Event_OpenPodTutorial			\Default Work Unit\Ambiant\Event_OpenPodTutorial	
 	2579753370	Event_Experience			\Default Work Unit\Ambiant\Event_Experience	
 	3260722596	Event_DoorTutorial			\Default Work Unit\Ambiant\Event_DoorTutorial	
 	3321259527	Event_Camera			\Default Work Unit\Ambiant\Event_Camera	
-	3674700006	Event_StopAlarme			\Default Work Unit\Event_StopAlarme	
+	3674700006	Event_StopAlarme			\Default Work Unit\Ambiant\Event_StopAlarme	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	88520285	STDR_Door			\Default Work Unit\STDR_Door	
@@ -29,8 +27,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	330859100	SDF_ClosedDoorTutorial	.cache\40\{40E1D10D-553F-8CD0-26C5-9845159C7F8F}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\CT_DoorTuto\SDF_ClosedDoorTutorial		352896
 	348565895	SDF_OpenDoorTutorial	.cache\4A\{4A5D48CA-72A5-C011-B184-7F7C34DFED4D}.wem		\Containers\Default Work Unit\Ambiant\SDF_DoorTutorial\CT_DoorTuto\SDF_OpenDoorTutorial		445520
 	554611734	SDF_Panel	.cache\87\{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\RDCT_Experience\SDF_Panel		136032
-	675029894	SDF_Ambiant1	.cache\11\{11B4E43A-E15D-CC5E-9F62-055CF3E1DC02}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant1		16682976
-	677659704	SDF_Ambiant2	.cache\D6\{D6E79E9A-105F-277F-DAF2-106D5B239AEC}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant2		19954656
 	822209333	SDF_CreatureScream	.cache\32\{3268400A-20CE-9CCB-29AE-7930BCEC4718}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\RDCT_Experience\SDF_CreatureScream		2596704
 	879574641	SDF_CreatureHurt	.cache\75\{75DFBC17-FCB7-247F-9211-B03A19C95ADF}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantExperience\RDCT_Experience\SDF_CreatureHurt		1142880
 

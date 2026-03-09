@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{39AF2508-DE64-42C5-AA41-5A4A03CAD537}",
     "Language": "SFX",
-    "Hash": "{69A5EBE4-6E52-C529-8C8C-B48D4E389585}",
+    "Hash": "{30ACA2F8-8918-6589-042B-61625828A6D7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambiant",
     "ShortName": "Ambiant",
     "Path": "Ambiant.bnk",
@@ -70,22 +70,6 @@
       "Location": "Memory",
       "ShortName": "SDF_AmbiantExperience\\SDF_Panel.wav",
       "CachePath": "87/{875ACBA3-BC8C-1A3C-06FB-05BB4C843641}.wem"
-     },
-     {
-      "Id": "675029894",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SDF_Ambiant1.wav",
-      "CachePath": "11/{11B4E43A-E15D-CC5E-9F62-055CF3E1DC02}.wem"
-     },
-     {
-      "Id": "677659704",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SDF_Ambiant2.wav",
-      "CachePath": "D6/{D6E79E9A-105F-277F-DAF2-106D5B239AEC}.wem"
      },
      {
       "Id": "822209333",
@@ -153,32 +137,6 @@
       "MediaRefs": [
        {
         "Id": "133788698"
-       }
-      ]
-     },
-     {
-      "Id": "617019463",
-      "Name": "Event_Ambiant1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant1",
-      "GUID": "{913A5CCD-0DDB-4648-ABA5-D692C197BACF}",
-      "Color": "1",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "675029894"
-       }
-      ]
-     },
-     {
-      "Id": "617019460",
-      "Name": "Event_Ambiant2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_Ambiant2",
-      "GUID": "{34B7C7A3-30AA-481D-A15D-42F9AE074861}",
-      "Color": "1",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "677659704"
        }
       ]
      },
@@ -295,7 +253,7 @@
      {
       "Id": "3674700006",
       "Name": "Event_StopAlarme",
-      "ObjectPath": "\\Events\\Default Work Unit\\Event_StopAlarme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambiant\\Event_StopAlarme",
       "GUID": "{9D74CA57-513B-4763-BAC2-16CFE3CB1757}",
       "Color": "1",
       "MaxAttenuation": "0",
@@ -328,6 +286,6 @@
     ]
    }
   ],
-  "FileHash": "{850C76FD-04A5-BC65-037B-224324EBE390}"
+  "FileHash": "{748F4488-111A-CBE0-BC05-AA5DA3B9F0B9}"
  }
 }

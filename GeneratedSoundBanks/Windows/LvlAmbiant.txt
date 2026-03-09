@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	617019460	Event_Ambiant2			\Default Work Unit\Ambiant\Event_Ambiant2	
+	617019463	Event_Ambiant1			\Default Work Unit\Ambiant\Event_Ambiant1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	675029894	SDF_Ambiant1	.cache\11\{11B4E43A-E15D-CC5E-9F62-055CF3E1DC02}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant1		16682976
+	677659704	SDF_Ambiant2	.cache\D6\{D6E79E9A-105F-277F-DAF2-106D5B239AEC}.wem		\Containers\Default Work Unit\Ambiant\SDF_AmbiantSalle\SDF_Ambiant2		19954656
+
