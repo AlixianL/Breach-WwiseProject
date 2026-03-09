@@ -8,10 +8,8 @@
 						<ObjectRef Name="Event_Alarme" ID="{867BD458-F652-4188-98A4-DBA17AD0C4EA}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_Experience" ID="{0AC1A0D1-7BAB-445D-BF4A-1C997D57D7FA}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_Camera" ID="{6F383357-8DC6-45B7-8DDA-C5AB47587284}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Event_Ambiant1" ID="{913A5CCD-0DDB-4648-ABA5-D692C197BACF}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_DoorTutorial" ID="{0F243934-7491-4707-B12D-06427FFFE95B}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_StopAlarme" ID="{9D74CA57-513B-4763-BAC2-16CFE3CB1757}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Event_Ambiant2" ID="{34B7C7A3-30AA-481D-A15D-42F9AE074861}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_OpenPodTutorial" ID="{582A6EED-DE40-49EB-9C1F-15D43F906957}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -38,6 +36,7 @@
 				</SoundBank>
 				<SoundBank Name="Monster" ID="{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_SDF_MonsterExperienceUltraSon" ID="{E912C117-3FC8-4374-84AE-0116B2CE1137}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_MonsterHurt" ID="{1644A1AD-6509-46CE-B1B2-058B5C124744}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_MonsterPunch" ID="{A2116719-FFE2-4CB0-A3AF-788C45DCC4E0}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_MonsterExperience" ID="{10170814-6B29-4F2B-9284-1968A05C4FEC}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
@@ -51,6 +50,14 @@
 						<ObjectRef Name="Event_CharacterFootSteps" ID="{D8B7A5B1-F6D9-476C-9AA7-241AE6D6A66C}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_CharacterEmotions" ID="{E9DD5B73-26C1-4840-9360-DF8260A30DB2}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Event_CharacterBreath" ID="{38B07688-A75C-49BF-A18B-14B78ACA0584}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="LvlAmbiant" ID="{FD611B3A-789A-44F0-BCB3-D3FD0B4E9B6F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Event_Ambiant1" ID="{913A5CCD-0DDB-4648-ABA5-D692C197BACF}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Event_Ambiant2" ID="{34B7C7A3-30AA-481D-A15D-42F9AE074861}" WorkUnitID="{EE7051A2-E6C8-4030-9DE9-525AB6201F0D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -52,6 +52,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_Panel" ID="{F4925F56-E0C7-4D83-AEDE-AE95D1C1CE02}" ShortID="352613911">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -74,6 +81,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_CreatureScream" ID="{AD713D45-1BC9-46ED-842B-66D468AD1AF2}" ShortID="265892609">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -96,6 +110,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_CreatureHurt" ID="{256677A5-646A-4F00-8662-95871C0C0709}" ShortID="716562849">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -342,7 +363,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-30</Value>
+												<Value>-22</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -372,7 +393,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-25</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1167,7 +1188,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>55</Value>
+												<Value>33</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -1317,6 +1338,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SDF_MonsterExperienceUltraSon" ID="{FE3B007A-6475-4251-B7F7-A73927695433}" ShortID="612967199">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
@@ -1327,10 +1351,15 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SDF_MonsterExperienceUltraSon" ID="{7D6A7364-CE0E-48FE-A065-751001C9EDF0}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0426997232043053"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.37245184685573"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SDF_MonsterExperienceUltraSon.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="961638347"/>
+														<MediaID ID="698320959"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1404,9 +1433,41 @@
 												<ActiveSource Name="SDF_MonsterExperienceGunShot" ID="{71CB1718-B65E-4ECE-B575-20FDD6179577}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="SDF_MonsterExperienceReloadGun" ID="{9A1DC015-8956-4097-A397-F94B2517ADBB}" ShortID="80904933">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F44500DA-73E6-407C-8697-9E99753BE088}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SDF_MonsterExperienceReloadGun" ID="{F54C5B75-0085-4C16-B48A-BC48C96FECEA}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\SDF_MonsterExperienceReloadGun.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="505992577"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SDF_MonsterExperienceReloadGun" ID="{F54C5B75-0085-4C16-B48A-BC48C96FECEA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="SDF_MonsterExperienceReloadGun" ID="{9A1DC015-8956-4097-A397-F94B2517ADBB}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="SDF_MonsterExperienceLaser" ID="{C40C4F18-20A3-4FA9-8409-25A65C6B7D6C}"/>
 											</GroupingBehavior>
@@ -1443,6 +1504,12 @@
 												<SwitchRef Name="ST_FireWeapon" ID="{E09BBA13-E815-4379-9197-706B4E793908}"/>
 												<ItemList>
 													<ItemRef Name="SDF_MonsterExperienceFlame" ID="{1A524BF1-A6A7-4CB8-A2D4-EBF276BF2E67}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="ST_ReloadWeapon" ID="{6E3CC124-FFB7-492C-B549-36B9BCC0502B}"/>
+												<ItemList>
+													<ItemRef Name="SDF_MonsterExperienceReloadGun" ID="{9A1DC015-8956-4097-A397-F94B2517ADBB}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1489,6 +1556,13 @@
 						<Folder Name="SDF_MonsterEscape" ID="{0C0640C4-D057-4881-A4D3-3BE0CD58F542}" ShortID="534516111">
 							<ChildrenList>
 								<RandomSequenceContainer Name="RDCT_MonsterPunch" ID="{A4998EBB-9CFE-4C84-A8DF-F92A59E11FFC}" ShortID="598949166">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C49BFE6-7961-4C0A-9686-F5B80477C6CA}"/>

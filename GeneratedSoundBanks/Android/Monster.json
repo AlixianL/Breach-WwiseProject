@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{EAC1FF6D-476C-44C2-8A16-4DEFB07C6C6F}",
     "Language": "SFX",
-    "Hash": "{36C024D7-DC6B-1FBE-D1EE-A42BF38F31B7}",
+    "Hash": "{FD5C548D-FA14-CD6A-502A-E70C0A6CF1A2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Monster",
     "ShortName": "Monster",
     "Path": "Monster.bnk",
@@ -80,20 +80,28 @@
       "CachePath": "6E/{6E07006A-54DE-CC2D-F5A7-92E83440FEE4}.wem"
      },
      {
+      "Id": "505992577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\SDF_MonsterExperienceReloadGun.wav",
+      "CachePath": "78/{78178989-73DD-8A59-3A39-07BCDEF424EB}.wem"
+     },
+     {
+      "Id": "698320959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SDF_MonsterExperienceUltraSon.wav",
+      "CachePath": "DB/{DBEC970D-24F8-C8DB-020B-3138E3D0D7BD}.wem"
+     },
+     {
       "Id": "838334762",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SDF_MonsterPunch2.wav",
       "CachePath": "E8/{E8C7D96B-AD5B-B2A7-F217-9B13480DB291}.wem"
-     },
-     {
-      "Id": "961638347",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SDF_MonsterExperienceUltraSon.wav",
-      "CachePath": "6C/{6CFE3A5F-58FC-1633-CF02-D2803BC2A8AD}.wem"
      },
      {
       "Id": "1012138208",
@@ -131,9 +139,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Event_MonsterExperience",
       "GUID": "{10170814-6B29-4F2B-9284-1968A05C4FEC}",
       "Color": "19",
-      "DurationType": "OneShot",
+      "DurationType": "Mixed",
       "DurationMin": "1.8419728",
-      "DurationMax": "9.88",
+      "DurationMax": "Infinite",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -165,6 +173,19 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "1537274156",
+         "Id": "2670260632",
+         "GUID": "{6E3CC124-FFB7-492C-B549-36B9BCC0502B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "505992577"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1537274156",
          "Id": "1542943490",
          "GUID": "{F8EBF437-6FDA-4405-A3C5-5728B4FA6021}",
          "Default": "true"
@@ -184,7 +205,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "961638347"
+          "Id": "698320959"
          }
         ]
        },
@@ -284,6 +305,17 @@
         "Id": "838334762"
        }
       ]
+     },
+     {
+      "Id": "2661386048",
+      "Name": "Stop_SDF_MonsterExperienceUltraSon",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Stop_SDF_MonsterExperienceUltraSon",
+      "GUID": "{E912C117-3FC8-4374-84AE-0116B2CE1137}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -324,6 +356,12 @@
         "GUID": "{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"
        },
        {
+        "Id": "2670260632",
+        "Name": "ST_ReloadWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_ReloadWeapon",
+        "GUID": "{6E3CC124-FFB7-492C-B549-36B9BCC0502B}"
+       },
+       {
         "Id": "2867355185",
         "Name": "ST_UltraSonWeapon",
         "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_UltraSonWeapon",
@@ -346,6 +384,6 @@
     ]
    }
   ],
-  "FileHash": "{6234905B-F190-E42D-12BB-7650E723714F}"
+  "FileHash": "{32E5E415-0110-2DDA-45AA-23759B3D790E}"
  }
 }

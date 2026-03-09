@@ -37,6 +37,7 @@
 						<Switch Name="ST_LaserWeapon" ID="{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"/>
 						<Switch Name="ST_GravityWeapon" ID="{23D996F4-8214-4BA7-BB70-C08751766CF7}"/>
 						<Switch Name="ST_GunShotWeapon" ID="{DBFC5A5D-7D92-4FA4-B3BF-9CE2C60D14FC}"/>
+						<Switch Name="ST_ReloadWeapon" ID="{6E3CC124-FFB7-492C-B549-36B9BCC0502B}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

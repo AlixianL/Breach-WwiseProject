@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1302063987	Event_MonsterHurt			\Default Work Unit\Monster\Event_MonsterHurt	
 	2579464688	Event_MonsterPunch			\Default Work Unit\Monster\Event_MonsterPunch	
+	2661386048	Stop_SDF_MonsterExperienceUltraSon			\Default Work Unit\Monster\Stop_SDF_MonsterExperienceUltraSon	
 	3683101660	Event_MonsterExperience			\Default Work Unit\Monster\Event_MonsterExperience	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -12,6 +13,7 @@ Switch	ID	Name	Switch Group			Notes
 	1068808435	ST_GravityWeapon	STEP_MonsterExperience			
 	1542943490	ST_ElectricWeapon	STEP_MonsterExperience			
 	2255249304	ST_LaserWeapon	STEP_MonsterExperience			
+	2670260632	ST_ReloadWeapon	STEP_MonsterExperience			
 	2867355185	ST_UltraSonWeapon	STEP_MonsterExperience			
 	2960899283	ST_GunShotWeapon	STEP_MonsterExperience			
 	3478435148	ST_AcidWeapon	STEP_MonsterExperience			
@@ -28,8 +30,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	419410812	SDF_MonsterExperienceGunShot	.cache\53\{53C06B44-E0B3-B92B-DB68-0416C90BB6C4}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceGunShot		761952
 	423467017	SDF_MonsterExperienceIce	.cache\A3\{A3454739-15B2-4AE1-0052-FC59AE8FCB22}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceIce		640448
 	490473288	SDF_MonsterPunch1	.cache\6E\{6E07006A-54DE-CC2D-F5A7-92E83440FEE4}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterEscape\RDCT_MonsterPunch\SDF_MonsterPunch1		305376
+	505992577	SDF_MonsterExperienceReloadGun	.cache\78\{78178989-73DD-8A59-3A39-07BCDEF424EB}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceReloadGun		658084
+	698320959	SDF_MonsterExperienceUltraSon	.cache\DB\{DBEC970D-24F8-C8DB-020B-3138E3D0D7BD}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceUltraSon		831408
 	838334762	SDF_MonsterPunch2	.cache\E8\{E8C7D96B-AD5B-B2A7-F217-9B13480DB291}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterEscape\RDCT_MonsterPunch\SDF_MonsterPunch2		303456
-	961638347	SDF_MonsterExperienceUltraSon	.cache\6C\{6CFE3A5F-58FC-1633-CF02-D2803BC2A8AD}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceUltraSon		1190496
 	1012138208	SDF_MonsterExperienceElectricity	.cache\D7\{D707BA8E-F738-E54D-9BE8-E13B9E1D60A4}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceElectricity		325020
 	1044149136	SDF_MonsterExperienceAcid	.cache\44\{44D26C33-4606-03D9-1871-3F288AE4430E}.wem		\Containers\Default Work Unit\Monster\SDF_MonsterExperience\STCT_MonsterExperience\SDF_MonsterExperienceAcid		714660
 

@@ -216,6 +216,12 @@
         "GUID": "{B1C3AE07-9A64-408F-A75D-1E7657C8863D}"
        },
        {
+        "Id": "2670260632",
+        "Name": "ST_ReloadWeapon",
+        "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_ReloadWeapon",
+        "GUID": "{6E3CC124-FFB7-492C-B549-36B9BCC0502B}"
+       },
+       {
         "Id": "2867355185",
         "Name": "ST_UltraSonWeapon",
         "ObjectPath": "\\Switches\\Default Work Unit\\STEP_MonsterExperience\\ST_UltraSonWeapon",
@@ -755,6 +761,6 @@
     ]
    }
   ],
-  "FileHash": "{8CE9BB0F-3352-B489-0825-2C4104F3E75C}"
+  "FileHash": "{F3208E18-C439-8035-ED10-EDDFC5431B79}"
  }
 }

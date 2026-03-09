@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FD611B3A-789A-44F0-BCB3-D3FD0B4E9B6F}",
     "Language": "SFX",
-    "Hash": "{1BC2024D-3103-271E-C840-4A475021E74D}",
+    "Hash": "{F2E9D2E0-6DE3-85E3-5CC3-06591EE33E6F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\LvlAmbiant",
     "ShortName": "LvlAmbiant",
     "Path": "LvlAmbiant.bnk",
@@ -62,6 +62,6 @@
     ]
    }
   ],
-  "FileHash": "{DE54DC31-0BD6-8CF1-B3C5-65AADBCFD152}"
+  "FileHash": "{F5AF8A86-4BB7-0680-53D0-1566D80AB3E5}"
  }
 }

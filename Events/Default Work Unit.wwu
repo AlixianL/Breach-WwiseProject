@@ -86,6 +86,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Event_StopAlarme" ID="{9D74CA57-513B-4763-BAC2-16CFE3CB1757}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2D00EA71-259D-4F22-B18C-4B245BA6B9A4}" ShortID="1059478952">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_AmbiantAlarme" ID="{4F7C55A9-3A00-4572-BED0-B454D9E2EF6B}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{35A59888-0B52-4E1D-84B9-21333388778D}" ShortID="922483013">
@@ -243,6 +261,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_SDF_MonsterExperienceUltraSon" ID="{E912C117-3FC8-4374-84AE-0116B2CE1137}">
+							<ChildrenList>
+								<Action Name="" ID="{BF146580-DF49-46DB-9D60-540C99188F7F}" ShortID="286446153">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SDF_MonsterExperienceUltraSon" ID="{FE3B007A-6475-4251-B7F7-A73927695433}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2EBBA59A-51C1-4071-81BC-70EBDFC206F7}" ShortID="862442756">
@@ -264,24 +296,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Event_StopAlarme" ID="{9D74CA57-513B-4763-BAC2-16CFE3CB1757}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="1"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{2D00EA71-259D-4F22-B18C-4B245BA6B9A4}" ShortID="1059478952">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SDF_AmbiantAlarme" ID="{4F7C55A9-3A00-4572-BED0-B454D9E2EF6B}" WorkUnitID="{FB16D949-B48E-45C0-824A-A97294778394}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
